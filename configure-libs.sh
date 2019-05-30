@@ -146,30 +146,4 @@ cd build/openssl-OpenSSL_1_1_1b
     no-shared
 cd ../..
 
-#------------------------------------------
-#   cjose
-#------------------------------------------
-echo "===================== CJOSE ======================="
-cd build/cjose-0.6.1
-./configure \
-    --prefix=/yuneta/development/output \
-    --disable-doxygen-doc \
-    --with-openssl=/yuneta/development/output/lib \
-    --with-jansson=/yuneta/development/output
-cd ../..
 
-#------------------------------------------
-#   liboauth2
-#------------------------------------------
-echo "===================== LIBOAUTH2 ======================="
-cd build/liboauth2-1.0.0
-sh autogen.sh
-JANSSON_CFLAGS="-I/yuneta/development/output/include"
-JANSSON_LIBS="-L/yuneta/development/output/lib -ljansson"
-CJOSE_CFLAGS="-I/yuneta/development/output/include"
-CJOSE_LIBS="-L/yuneta/development/output/lib -lcjose"
-./configure --prefix=/yuneta/development/output  --without-apache
-cd ../..
-
-
-cd ../..

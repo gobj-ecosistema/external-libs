@@ -19,10 +19,15 @@ To avoid conflicts with other versions of libuv and jannson installed in your ho
 the libraries will be deployed in ``/yuneta/development/output/lib``
 and the include files in ``/yuneta/development/output/include``.
 
-You must build with the scripts::
+Build with the next scripts::
 
     * extrae.sh
     * configure-libs.sh
     * install-libs.sh
+
+and::
+
+    * configure-libs2.sh
+    * install-libs2.sh
 
 
