@@ -25,9 +25,3 @@ Build with the next scripts::
     * configure-libs.sh
     * install-libs.sh
 
-and::
-
-    * configure-libs2.sh
-    * install-libs2.sh
-
-

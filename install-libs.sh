@@ -1,9 +1,16 @@
 #!/bin/bash
 
 #------------------------------------------
+#   openssl
+#------------------------------------------
+cd build/openssl-OpenSSL_1_1_1b
+make install
+cd ../..
+
+#------------------------------------------
 #   curl
 #------------------------------------------
-cd build/curl-7.64.1
+cd build/curl-7.65.1
 make install
 cd ../..
 
@@ -72,9 +79,25 @@ cd build/sqlite-autoconf-3260000
 make install
 cd ../..
 
+
 #------------------------------------------
-#   openssl
+#   cjose
 #------------------------------------------
-cd build/openssl-OpenSSL_1_1_1b
+cd build/cjose-0.6.1
 make install
 cd ../..
+
+#------------------------------------------
+#   liboauth2
+#------------------------------------------
+cd build/liboauth2-1.1.1
+make install
+cd ../..
+
+#------------------------------------------
+#   libsodium
+#------------------------------------------
+cd build/libsodium-1.0.18
+make install
+cd ../..
+

@@ -11,15 +11,15 @@ cd build
 # sudo ln -s /yuneta/development/output/lib/instantclient_11_2/libnnz11.so /usr/lib
 # sudo ln -s /yuneta/development/output/lib/instantclient_11_2/libociei.so /usr/lib
 
-# sudo ln -s  /yuneta/development/output/lib/libodpic.so.3.1.4 /usr/lib/libodpic.so
-# sudo ln -s  /yuneta/development/output/lib/libodpic.so.3.1.4 /usr/lib/libodpic.so.3
-# sudo ln -s  /yuneta/development/output/lib/libodpic.so.3.1.4 /usr/lib/
+# sudo ln -s  /yuneta/development/output/lib/libodpic.so.3.1.0 /usr/lib/libodpic.so
+# sudo ln -s  /yuneta/development/output/lib/libodpic.so.3.1.0 /usr/lib/libodpic.so.3
+# sudo ln -s  /yuneta/development/output/lib/libodpic.so.3.1.0 /usr/lib/
 
 # TODO parece que no hace falta
 # sudo ln -s /yuneta/development/output/lib/instantclient_11_2/libocijdbc11.so /usr/lib
 
 echo "extrae curl"
-tar xzf ../sources/curl-7.64.1.tar.gz
+tar xzf ../sources/curl-7.65.1.tar.gz
 echo "extrae jannson"
 tar xzf ../sources/jansson-2.12.tar.gz
 echo "extrae libunwind"
@@ -48,6 +48,8 @@ echo "extrae cjose"
 tar xzf ../sources/cjose-0.6.1.tar.gz
 
 echo "extrae oauth2"
-tar xzf ../sources/liboauth2-1.0.0.tar.gz
+tar xzf ../sources/liboauth2-1.1.1.tar.gz
 
+echo "extrae libsodium"
+tar xzf ../sources/libsodium-1.0.18.tar.gz
 cd ..
