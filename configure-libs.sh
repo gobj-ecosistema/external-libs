@@ -118,6 +118,18 @@ make install
 cd ../..
 
 #------------------------------------------
+#   odpi
+#   Extraer los includes y copiar include de sources/oracle_oci/instantclient-sdk... en development/output/include
+#------------------------------------------
+echo "===================== ODPI ======================="
+cd build/odpi-3.2.2
+make PREFIX=/usr
+make install
+
+cd ../..
+
+
+#------------------------------------------
 #   PCRE
 #------------------------------------------
 # HACK WARNING en redhat usa ./configure
