@@ -3,20 +3,18 @@ mkdir build
 cd build
 
 # MANUALLY unzip, only if using ocilib (for oracle)
-# unzip ../sources/oracle_oci/instantclient-basic-linux.x64-11.2.0.4.0.zip -d /yuneta/development/output/lib
-# unzip ../sources/oracle_oci/instantclient-sdk-linux.x64-11.2.0.4.0.zip -d /yuneta/development/output/include
-# ln -s /yuneta/development/output/lib/instantclient_11_2/libclntsh.so.11.1 /yuneta/development/output/lib/instantclient_11_2/libclntsh.so
-# sudo ln -s /yuneta/development/output/lib/instantclient_11_2/libclntsh.so.11.1 /usr/lib/libclntsh.so
-# sudo ln -s /yuneta/development/output/lib/instantclient_11_2/libclntsh.so.11.1 /usr/lib/
-# sudo ln -s /yuneta/development/output/lib/instantclient_11_2/libnnz11.so /usr/lib
-# sudo ln -s /yuneta/development/output/lib/instantclient_11_2/libociei.so /usr/lib
-
-# sudo ln -s  /yuneta/development/output/lib/libodpic.so.3.1.0 /usr/lib/libodpic.so
-# sudo ln -s  /yuneta/development/output/lib/libodpic.so.3.1.0 /usr/lib/libodpic.so.3
-# sudo ln -s  /yuneta/development/output/lib/libodpic.so.3.1.0 /usr/lib/
+# unzip ../sources/oracle_oci/instantclient-basic-linux.x64-12.2.0.1.0.zip -d /yuneta/development/output/lib
+# unzip ../sources/oracle_oci/instantclient-sdk-linux.x64-12.2.0.1.0.zip -d /yuneta/development/output/include
+# ln -s /yuneta/development/output/lib/instantclient_12_2/libclntsh.so.12.1 /yuneta/development/output/lib/instantclient_12_2/libclntsh.so
+# sudo rm /usr/lib/libclntsh.so
+# sudo ln -s /yuneta/development/output/lib/instantclient_12_2/libclntsh.so.12.1 /usr/lib/libclntsh.so
+# sudo ln -s /yuneta/development/output/lib/instantclient_12_2/libclntsh.so.12.1 /usr/lib/
+# sudo ln -s /yuneta/development/output/lib/instantclient_12_2/libnnz12.so /usr/lib
+# sudo rm /usr/lib/libociei.so
+# sudo ln -s /yuneta/development/output/lib/instantclient_12_2/libociei.so /usr/lib
 
 # TODO parece que no hace falta
-# sudo ln -s /yuneta/development/output/lib/instantclient_11_2/libocijdbc11.so /usr/lib
+# sudo ln -s /yuneta/development/output/lib/instantclient_12_2/libocijdbc12.so /usr/lib
 
 echo "extrae curl"
 tar xzf ../sources/curl-7.65.1.tar.gz
@@ -30,9 +28,6 @@ echo "extrae ncurses"
 tar xzf ../sources/ncurses-6.0.tar.gz
 echo "extrae nginx"
 tar xzf ../sources/nginx-1.15.12.tar.gz
-
-echo "extrae odpi"
-tar xzf ../sources/odpi-3.1.0.tar.gz
 
 echo "extrae pcre2"
 tar xzf ../sources/pcre2-10.33.tar.gz
