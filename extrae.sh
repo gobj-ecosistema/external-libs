@@ -11,17 +11,18 @@ cd build
 # sudo rm /usr/lib/libclntsh* /usr/lib/libnnz* /usr/lib/libociei* /usr/lib/libocijdbc* /usr/lib/libodpic*
 # sudo rm /usr/local/lib/libodpic*
 
-# sudo cp -a  /yuneta/development/output/lib/instantclient_12_2/libclntsh.so.12.1 /usr/lib/
+# sudo cp /yuneta/development/output/lib/instantclient_12_2/libclntsh.so.12.1 /usr/lib/
 # sudo ln -s /usr/lib/libclntsh.so.12.1 /usr/lib/libclntsh.so
-# sudo cp -a /yuneta/development/output/lib/instantclient_12_2/libnnz12.so /usr/lib/
-# sudo cp -a /yuneta/development/output/lib/instantclient_12_2/libociei.so /usr/lib/
-# sudo cp -a /yuneta/development/output/lib/instantclient_12_2/libmql1.so /usr/lib/
-# sudo cp -a /yuneta/development/output/lib/instantclient_12_2/libipc1.so /usr/lib/
-# sudo cp -a /yuneta/development/output/lib/instantclient_12_2/libons.so /usr/lib/
-# sudo cp -a  /yuneta/development/output/lib/instantclient_12_2/libclntshcore.so.12.1 /usr/lib/
+# sudo cp /yuneta/development/output/lib/instantclient_12_2/libnnz12.so /usr/lib/
+# sudo cp /yuneta/development/output/lib/instantclient_12_2/libociei.so /usr/lib/
+# sudo cp /yuneta/development/output/lib/instantclient_12_2/libmql1.so /usr/lib/
+# sudo cp /yuneta/development/output/lib/instantclient_12_2/libipc1.so /usr/lib/
+# sudo cp /yuneta/development/output/lib/instantclient_12_2/libons.so /usr/lib/
+# sudo cp /yuneta/development/output/lib/instantclient_12_2/libclntshcore.so.12.1 /usr/lib/
 # sudo ln -s /usr/lib/libclntshcore.so.12.1 /usr/lib/libclntshcore.so
 
-
+cd /usr/lib
+tar czf oracle_libs.tar.gz libclntsh.so.12.1 libclntsh.so libnnz12.so libociei.so libmql1.so libipc1.so libons.so libclntshcore.so.12.1 libclntshcore.so libodpic*
 
 # TODO parece que no hace falta
 # sudo cp -a /yuneta/development/output/lib/instantclient_12_2/libocijdbc12.so /usr/lib/
