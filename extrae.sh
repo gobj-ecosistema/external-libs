@@ -21,11 +21,8 @@ cd build
 # sudo cp /yuneta/development/output/lib/instantclient_12_2/libclntshcore.so.12.1 /usr/lib/
 # sudo ln -s /usr/lib/libclntshcore.so.12.1 /usr/lib/libclntshcore.so
 
-cd /usr/lib
-tar czf oracle_libs.tar.gz libclntsh.so.12.1 libclntsh.so libnnz12.so libociei.so libmql1.so libipc1.so libons.so libclntshcore.so.12.1 libclntshcore.so libodpic*
-
-# TODO parece que no hace falta
-# sudo cp -a /yuneta/development/output/lib/instantclient_12_2/libocijdbc12.so /usr/lib/
+# cd /usr/lib
+# tar czf oracle_libs.tar.gz libclntsh.so.12.1 libclntsh.so libnnz12.so libociei.so libmql1.so libipc1.so libons.so libclntshcore.so.12.1 libclntshcore.so libodpic*
 
 echo "extrae curl"
 tar xzf ../sources/curl-7.65.1.tar.gz
