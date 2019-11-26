@@ -36,7 +36,7 @@ tar xzf ../sources/libuv-1.28.0.gines.tar.gz
 echo "extrae ncurses"
 tar xzf ../sources/ncurses-6.0.tar.gz
 echo "extrae nginx"
-tar xzf ../sources/nginx-1.15.12.tar.gz
+tar xzf ../sources/nginx-1.16.1.tar.gz
 
 echo "extrae odpi"
 tar xzf ../sources/odpi-3.2.2.tar.gz
@@ -49,7 +49,7 @@ tar xzf ../sources/rrdtool-1.6.0.tar.gz
 echo "extrae sqlite"
 tar xzf ../sources/sqlite-autoconf-3260000.tar.gz
 echo "extrae openssl"
-tar xzf ../sources/openssl-OpenSSL_1_1_1b.tar.gz
+tar xzf ../sources/openssl-OpenSSL_1_1_1d.tar.gz
 
 echo "extrae cjose"
 tar xzf ../sources/cjose-0.6.1.tar.gz

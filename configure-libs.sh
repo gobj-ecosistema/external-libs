@@ -4,10 +4,11 @@
 #   openssl
 #------------------------------------------
 echo "===================== OPENSSL ======================="
-cd build/openssl-OpenSSL_1_1_1b
+cd build/openssl-OpenSSL_1_1_1d
 ./config \
     --prefix=/yuneta/development/output \
     --openssldir=/yuneta/bin/ssl \
+    --api=1.1.0 \
     --strict-warnings
 make
 make install
@@ -107,11 +108,13 @@ cd ../..
 #------------------------------------------
 # HACK sudo yum install pcre-devel.x86_64 zlib-devel.x86_64
 echo "===================== NGINX ======================="
-cd build/nginx-1.15.12
+cd build/nginx-1.16.1
 ./configure \
     --prefix=/yuneta/bin/nginx \
     --with-http_ssl_module \
-    --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-OpenSSL_1_1_1b
+    --with-stream \
+    --with-stream_ssl_module \
+    --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-OpenSSL_1_1_1d
 make
 make install
 
