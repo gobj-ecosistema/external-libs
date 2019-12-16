@@ -214,16 +214,18 @@ make install
 cd ../..
 
 
-------------------------------------------
-  musl
-  http://git.etalabs.net/cgit/musl/
-------------------------------------------
-# echo "===================== LIBMUSL ======================="
-# cd build/musl-1.1.24
-# ./configure \
-#     --enable-warnings
-#
-# make
-# make install
-#
-# cd ../..
+# ------------------------------------------
+#   musl
+#   http://git.etalabs.net/cgit/musl/
+# ------------------------------------------
+echo "===================== LIBMUSL ======================="
+cd build/musl-1.1.24
+./configure \
+    --prefix=/yuneta/development/output/musl \
+    --disable-shared \
+    --enable-warnings
+
+make
+make install
+
+cd ../..
