@@ -220,7 +220,7 @@ cd ../..
 # ------------------------------------------
 echo "===================== LIBMUSL ======================="
 cd build/musl-1.1.24
-./configure \
+./configure CC=clang \
     --prefix=/yuneta/development/output/musl \
     --disable-shared \
     --enable-warnings
