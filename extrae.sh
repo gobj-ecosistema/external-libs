@@ -68,8 +68,8 @@ tar xzf ../sources/liboauth2-1.1.1.tar.gz
 
 echo "extrae libsodium"
 tar xzf ../sources/libsodium-1.0.18.tar.gz
-cd ..
 
 # echo "extrae libmusl"
 # tar xzf ../sources/musl-1.1.24.tar.gz
-# cd ..
+
+cd ..

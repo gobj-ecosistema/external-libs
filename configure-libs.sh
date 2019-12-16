@@ -56,14 +56,13 @@ cd ../..
 #------------------------------------------
 #   Libunwind
 #------------------------------------------
-echo "===================== UNWIND ======================="
-cd build/libunwind-1.3.1
-sh autogen.sh
-./configure --prefix=/yuneta/development/output
-make
-make install
-
-cd ../..
+# echo "===================== UNWIND ======================="
+# cd build/libunwind-1.3.1
+# ./configure --prefix=/yuneta/development/output
+# make
+# make install
+#
+# cd ../..
 
 
 #------------------------------------------
@@ -215,19 +214,19 @@ make install
 cd ../..
 
 
-#------------------------------------------
-#   musl
-#   http://git.etalabs.net/cgit/musl/
-#------------------------------------------
-# echo "===================== LIBMUSL ======================="
-# cd build/musl-1.1.24
-# ./configure \
-#     --prefix=/yuneta/development/output \
-#     --syslibdir=/yuneta/development/output/lib \
-#     --disable-shared \
-#     --enable-warnings
-#
-# make
-# make install
-#
-# cd ../..
+------------------------------------------
+  musl
+  http://git.etalabs.net/cgit/musl/
+------------------------------------------
+echo "===================== LIBMUSL ======================="
+cd build/musl-1.1.24
+./configure \
+    --prefix=/yuneta/development/output \
+    --syslibdir=/yuneta/development/output/lib \
+    --disable-shared \
+    --enable-warnings
+
+make
+make install
+
+cd ../..
