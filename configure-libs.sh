@@ -47,9 +47,7 @@ cd ../..
 echo "===================== JANSSON ======================="
 cd build/jansson-2.12
 autoreconf -i # do if first installation
-./configure --prefix=/yuneta/development/output \
-    --libdir=/yuneta/development/output/lib \
-    --includedir=/yuneta/development/output/include
+./configure --prefix=/yuneta/development/output
 make
 make install
 cd ../..
@@ -59,10 +57,9 @@ cd ../..
 #   Libunwind
 #------------------------------------------
 echo "===================== UNWIND ======================="
-cd build/libunwind-1.2.1
-./configure --prefix=/yuneta/development/output \
-    --libdir=/yuneta/development/output/lib \
-    --includedir=/yuneta/development/output/include
+cd build/libunwind-1.3.1
+./autogen.sh
+./configure --prefix=/yuneta/development/output
 make
 make install
 
@@ -75,9 +72,7 @@ cd ../..
 echo "===================== LIBUV ======================="
 cd build/libuv-1.34.0.gines
 sh autogen.sh
-./configure --prefix=/yuneta/development/output \
-    --libdir=/yuneta/development/output/lib \
-    --includedir=/yuneta/development/output/include
+./configure --prefix=/yuneta/development/output
 make
 make install
 
@@ -95,8 +90,6 @@ export CPPFLAGS="-P" #Fallo arreglado con la version ncurses-6.0 ?
 
 ./configure \
     --prefix=/yuneta/development/output \
-    --libdir=/yuneta/development/output/lib \
-    --includedir=/yuneta/development/output/include \
     --datarootdir=/yuneta/bin/ncurses \
     --enable-sp-funcs
 #         --enable-term-driver \
@@ -140,12 +133,9 @@ cd ../..
 #------------------------------------------
 # HACK WARNING en redhat usa ./configure
 echo "===================== PCRE ======================="
-cd build/pcre2-10.33
-./configure --prefix=/yuneta/development/output --libdir=/yuneta/development/output/lib --includedir=/yuneta/development/output/include --enable-jit
-# mkdir build
-# cd build
-# cmake -DCMAKE_INSTALL_PREFIX=/yuneta/development/output -DPCRE2_SUPPORT_JIT=ON -DPCRE2_HEAP_MATCH_RECURSE=ON ..
-# cd ../../..
+cd build/pcre2-10.34
+./configure --prefix=/yuneta/development/output \
+    --enable-jit
 make
 make install
 
@@ -158,8 +148,6 @@ echo "===================== SQLITE ======================="
 cd build/sqlite-autoconf-3260000
 CFLAGS="-Os -DSQLITE_THREADSAFE=0" ./configure \
     --prefix=/yuneta/development/output \
-    --libdir=/yuneta/development/output/lib \
-    --includedir=/yuneta/development/output/include \
     --enable-fts5 \
     --enable-json1 \
     --disable-threadsafe \

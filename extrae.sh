@@ -1,9 +1,11 @@
-rm -rf build/
-mkdir build
-cd build
+#!/bin/bash
 
 #  Exit immediately if a command exits with a non-zero status.
 set -e
+
+rm -rf build/
+mkdir build
+cd build
 
 # MANUALLY unzip, only if using ocilib (for oracle)
 # unzip ../sources/oracle_oci/instantclient-basic-linux.x64-12.2.0.1.0.zip -d /yuneta/development/output/lib
@@ -35,7 +37,7 @@ echo "extrae jannson"
 tar xzf ../sources/jansson-2.12.tar.gz
 
 echo "extrae libunwind"
-tar xzf ../sources/libunwind-1.2.1.tar.gz
+tar xzf ../sources/libunwind-1.3.1.tar.gz
 
 echo "extrae libuv"
 tar xzf ../sources/libuv-1.34.0.gines.tar.gz
@@ -50,7 +52,7 @@ echo "extrae odpi"
 tar xzf ../sources/odpi-3.2.2.tar.gz
 
 echo "extrae pcre2"
-tar xzf ../sources/pcre2-10.33.tar.gz
+tar xzf ../sources/pcre2-10.34.tar.gz
 
 echo "extrae sqlite"
 tar xzf ../sources/sqlite-autoconf-3260000.tar.gz
