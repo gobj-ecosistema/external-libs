@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#  Exit immediately if a command exits with a non-zero status.
+set -e
+
 #------------------------------------------
 #   openssl
 #------------------------------------------
@@ -62,13 +65,6 @@ cd ../..
 #   PCRE
 #------------------------------------------
 cd build/pcre2-10.33
-make install
-cd ../..
-
-#------------------------------------------
-#   rrdtool
-#------------------------------------------
-cd build/rrdtool-1.6.0
 make install
 cd ../..
 

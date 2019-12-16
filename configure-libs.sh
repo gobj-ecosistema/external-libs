@@ -1,14 +1,17 @@
 #!/bin/bash
 
+#  Exit immediately if a command exits with a non-zero status.
+set -e
+
 #------------------------------------------
 #   openssl
 #------------------------------------------
 echo "===================== OPENSSL ======================="
+#     --api=1.1.0 \
 cd build/openssl-OpenSSL_1_1_1d
 ./config \
     --prefix=/yuneta/development/output \
     --openssldir=/yuneta/bin/ssl \
-    --api=1.1.0 \
     --strict-warnings
 make
 make install
@@ -122,12 +125,12 @@ cd ../..
 
 #------------------------------------------
 #   odpi
-#   Extraer los includes y copiar include de sources/oracle_oci/instantclient-sdk... en development/output/include
+#   Extraer los includes y copiar include de sources/oracle_oci/instantclient-sdk...
+#   en development/output/include
 #------------------------------------------
 echo "===================== ODPI ======================="
 cd build/odpi-3.2.2
-make PREFIX=/usr
-make install
+make install PREFIX=/yuneta/development/output
 
 cd ../..
 
@@ -143,26 +146,6 @@ cd build/pcre2-10.33
 # cd build
 # cmake -DCMAKE_INSTALL_PREFIX=/yuneta/development/output -DPCRE2_SUPPORT_JIT=ON -DPCRE2_HEAP_MATCH_RECURSE=ON ..
 # cd ../../..
-make
-make install
-
-cd ../..
-
-#------------------------------------------
-#   rrdtool
-#------------------------------------------
-# echo "===================== RRDTOOL ======================="
-cd build/rrdtool-1.6.0
-./configure \
-    --prefix=/yuneta/development/output \
-    --libdir=/yuneta/development/output/lib \
-    --includedir=/yuneta/development/output/include \
-    --enable-static \
-    --with-systemdsystemunitdir=/yuneta/development/output/lib/systemd/system
-#     --enable-static-programs  # HACK esta línea bórrala en Ubuntu
-#
-# -lpng -lm  -lglib-2.0 -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lglib-2.0 -lxml2
-# -lpng -lm  -lglib-2.0 -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lglib-2.0 -lxml2
 make
 make install
 
