@@ -70,7 +70,7 @@ cd ../..
 #   Libuv
 #------------------------------------------
 echo "===================== LIBUV ======================="
-cd build/libuv-1.28.0.gines
+cd build/libuv-1.34.0.gines
 sh autogen.sh
 ./configure --prefix=/yuneta/development/output \
     --libdir=/yuneta/development/output/lib \
@@ -191,6 +191,7 @@ cd ../..
 
 #------------------------------------------
 #   cjose
+#   https://github.com/cisco/cjose/releases
 #------------------------------------------
 echo "===================== CJOSE ======================="
 cd build/cjose-0.6.1
@@ -207,6 +208,7 @@ cd ../..
 
 #------------------------------------------
 #   liboauth2
+#   https://github.com/zmartzone/liboauth2/releases
 #------------------------------------------
 echo "===================== LIBOAUTH2 ======================="
 cd build/liboauth2-1.1.1
@@ -230,6 +232,7 @@ cd ../..
 
 #------------------------------------------
 #   libsodium
+#   https://github.com/jedisct1/libsodium/releases
 #------------------------------------------
 echo "===================== LIBSODIUM ======================="
 cd build/libsodium-1.0.18
@@ -241,3 +244,19 @@ make install
 cd ../..
 
 
+#------------------------------------------
+#   musl
+#   http://git.etalabs.net/cgit/musl/
+#------------------------------------------
+# echo "===================== LIBMUSL ======================="
+# cd build/musl-1.1.24
+# ./configure \
+#     --prefix=/yuneta/development/output \
+#     --syslibdir=/yuneta/development/output/lib \
+#     --disable-shared \
+#     --enable-warnings
+#
+# make
+# make install
+#
+# cd ../..

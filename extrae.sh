@@ -32,7 +32,7 @@ tar xzf ../sources/jansson-2.12.tar.gz
 echo "extrae libunwind"
 tar xzf ../sources/libunwind-1.2.1.tar.gz
 echo "extrae libuv"
-tar xzf ../sources/libuv-1.28.0.gines.tar.gz
+tar xzf ../sources/libuv-1.34.0.gines.tar.gz
 echo "extrae ncurses"
 tar xzf ../sources/ncurses-6.0.tar.gz
 echo "extrae nginx"
@@ -60,3 +60,7 @@ tar xzf ../sources/liboauth2-1.1.1.tar.gz
 echo "extrae libsodium"
 tar xzf ../sources/libsodium-1.0.18.tar.gz
 cd ..
+
+# echo "extrae libmusl"
+# tar xzf ../sources/musl-1.1.24.tar.gz
+# cd ..
