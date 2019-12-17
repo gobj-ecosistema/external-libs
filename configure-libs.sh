@@ -61,7 +61,6 @@ cd build/libunwind-1.3.1
 ./configure --prefix=/yuneta/development/output
 make
 make install
-
 cd ../..
 
 
@@ -74,7 +73,6 @@ sh autogen.sh
 ./configure --prefix=/yuneta/development/output
 make
 make install
-
 cd ../..
 
 #------------------------------------------
@@ -95,7 +93,6 @@ export CPPFLAGS="-P" #Fallo arreglado con la version ncurses-6.0 ?
 #         --enable-ext-putwin
 make
 make install
-
 cd ../..
 
 #------------------------------------------
@@ -112,7 +109,6 @@ cd build/nginx-1.16.1
     --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-OpenSSL_1_1_1d
 make
 make install
-
 cd ../..
 
 #------------------------------------------
@@ -123,7 +119,6 @@ cd ../..
 echo "===================== ODPI ======================="
 cd build/odpi-3.2.2
 make install PREFIX=/yuneta/development/output
-
 cd ../..
 
 
@@ -137,7 +132,6 @@ cd build/pcre2-10.34
     --enable-jit
 make
 make install
-
 cd ../..
 
 #------------------------------------------
@@ -155,7 +149,6 @@ CFLAGS="-Os -DSQLITE_THREADSAFE=0" ./configure \
     --disable-shared
 make
 make install
-
 cd ../..
 
 
@@ -172,7 +165,6 @@ cd build/cjose-0.6.1
     --with-jansson=/yuneta/development/output
 make
 make install
-
 cd ../..
 
 
@@ -196,7 +188,6 @@ export CJOSE_LIBS="-L/yuneta/development/output/lib -lcjose"
 ./configure --prefix=/yuneta/development/output  --without-apache
 make
 make install
-
 cd ../..
 
 
@@ -210,7 +201,4 @@ cd build/libsodium-1.0.18
     --prefix=/yuneta/development/output
 make
 make install
-
 cd ../..
-
-
