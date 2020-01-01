@@ -191,14 +191,3 @@ make install
 cd ../..
 
 
-#------------------------------------------
-#   libsodium
-#   https://github.com/jedisct1/libsodium/releases
-#------------------------------------------
-echo "===================== LIBSODIUM ======================="
-cd build/libsodium-1.0.18
-./configure \
-    --prefix=/yuneta/development/output
-make
-make install
-cd ../..

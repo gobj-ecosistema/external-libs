@@ -66,8 +66,5 @@ tar xzf ../sources/cjose-0.6.1.tar.gz
 echo "extrae oauth2"
 tar xzf ../sources/liboauth2-1.1.1.tar.gz
 
-echo "extrae libsodium"
-tar xzf ../sources/libsodium-1.0.18.tar.gz
-
 
 cd ..

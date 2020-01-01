@@ -90,10 +90,4 @@ cd build/liboauth2-1.1.1
 make install
 cd ../..
 
-#------------------------------------------
-#   libsodium
-#------------------------------------------
-cd build/libsodium-1.0.18
-make install
-cd ../..
 
