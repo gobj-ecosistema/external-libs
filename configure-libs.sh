@@ -8,7 +8,7 @@ set -e
 #------------------------------------------
 echo "===================== OPENSSL ======================="
 #     --api=1.1.0 \
-cd build/openssl-OpenSSL_1_1_1d
+cd build/openssl-OpenSSL_1_1_1g
 ./config \
     --prefix=/yuneta/development/output \
     --openssldir=/yuneta/bin/ssl \
@@ -106,7 +106,7 @@ cd build/nginx-1.16.1
     --with-http_ssl_module \
     --with-stream \
     --with-stream_ssl_module \
-    --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-OpenSSL_1_1_1d
+    --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-OpenSSL_1_1_1g
 make
 make install
 cd ../..
