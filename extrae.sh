@@ -11,7 +11,7 @@ echo "extrae curl"
 tar xzf ../sources/curl-7.65.1.tar.gz
 
 echo "extrae jannson"
-tar xzf ../sources/jansson-2.12.tar.gz
+tar xzf ../sources/jansson-2.13.1.tar.gz
 
 echo "extrae libunwind"
 tar xzf ../sources/libunwind-1.3.1.tar.gz
