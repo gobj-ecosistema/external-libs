@@ -100,7 +100,7 @@ cd ../..
 #------------------------------------------
 # HACK sudo yum install pcre-devel.x86_64 zlib-devel.x86_64
 echo "===================== NGINX ======================="
-cd build/nginx-1.16.1
+cd build/nginx-1.18.0
 ./configure \
     --prefix=/yuneta/bin/nginx \
     --with-http_ssl_module \
