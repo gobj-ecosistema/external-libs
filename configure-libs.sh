@@ -116,7 +116,7 @@ cd ../..
 #------------------------------------------
 # HACK WARNING en redhat usa ./configure
 echo "===================== PCRE ======================="
-cd build/pcre2-10.34
+cd build/pcre2-10.35
 ./configure --prefix=/yuneta/development/output \
     --enable-jit
 make
