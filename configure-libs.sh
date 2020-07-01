@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#  Exit immediately if a command exits with a non-zero status.
-set -e
-
 #------------------------------------------
 #   openssl
 #------------------------------------------
@@ -40,6 +37,9 @@ cd build/curl-7.65.1
 make
 make install
 cd ../..
+
+#  Exit immediately if a command exits with a non-zero status.
+set -e
 
 #------------------------------------------
 #   Jansson
