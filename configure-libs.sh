@@ -9,7 +9,8 @@ cd build/openssl-OpenSSL_1_1_1g
 ./config \
     --prefix=/yuneta/development/output \
     --openssldir=/yuneta/bin/ssl \
-    --strict-warnings
+    --strict-warnings \
+    enable-ssl-trace
 make
 make install
 cd ../..
