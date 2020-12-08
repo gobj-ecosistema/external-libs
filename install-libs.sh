@@ -3,7 +3,7 @@
 #------------------------------------------
 #   openssl
 #------------------------------------------
-cd build/openssl-OpenSSL_1_1_1h
+cd build/openssl-OpenSSL_1_1_1i
 make install
 cd ../..
 
