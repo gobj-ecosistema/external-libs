@@ -163,7 +163,7 @@ cd ../..
 #   https://github.com/zmartzone/liboauth2/releases
 #------------------------------------------
 echo "===================== LIBOAUTH2 ======================="
-cd build/liboauth2-1.4.0.1
+cd build/liboauth2-1.4.1
 sh autogen.sh
 export OPENSSL_CFLAGS="-I/yuneta/development/output/include"
 export OPENSSL_LIBS="-L/yuneta/development/output/lib -lssl -lcrypto"
@@ -175,7 +175,7 @@ export JANSSON_CFLAGS="-I/yuneta/development/output/include"
 export JANSSON_LIBS="-L/yuneta/development/output/lib -ljansson"
 export CJOSE_CFLAGS="-I/yuneta/development/output/include"
 export CJOSE_LIBS="-L/yuneta/development/output/lib -lcjose"
-./configure --prefix=/yuneta/development/output  --without-apache
+./configure --prefix=/yuneta/development/output  --without-apache --without-redis
 make
 make install
 cd ../..
