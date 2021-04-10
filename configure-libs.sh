@@ -69,7 +69,7 @@ cd ../..
 #   Libuv
 #------------------------------------------
 echo "===================== LIBUV ======================="
-cd build/libuv-1.34.0.gines
+cd build/libuv-1.41.0.gines
 sh autogen.sh
 ./configure --prefix=/yuneta/development/output
 make
