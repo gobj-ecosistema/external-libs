@@ -5,7 +5,7 @@
 #------------------------------------------
 echo "===================== OPENSSL ======================="
 #     --api=1.1.0 \
-cd build/openssl-OpenSSL_1_1_1k
+cd build/openssl-OpenSSL_1_1_1l
 ./config \
     --prefix=/yuneta/development/output \
     --openssldir=/yuneta/bin/ssl \
@@ -107,7 +107,7 @@ cd build/nginx-1.18.0
     --with-http_ssl_module \
     --with-stream \
     --with-stream_ssl_module \
-    --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-OpenSSL_1_1_1k
+    --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-OpenSSL_1_1_1l
 make
 make install
 cd ../..
@@ -117,7 +117,7 @@ cd ../..
 #------------------------------------------
 # HACK WARNING en redhat usa ./configure
 echo "===================== PCRE ======================="
-cd build/pcre2-10.35
+cd build/pcre2-10.37
 ./configure --prefix=/yuneta/development/output \
     --enable-jit
 make

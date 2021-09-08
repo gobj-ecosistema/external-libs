@@ -26,13 +26,13 @@ echo "extrae nginx"
 tar xzf ../sources/nginx-1.18.0.tar.gz
 
 echo "extrae pcre2"
-tar xzf ../sources/pcre2-10.35.tar.gz
+tar xzf ../sources/pcre2-10.37.tar.gz
 
 echo "extrae sqlite"
 tar xzf ../sources/sqlite-autoconf-3260000.tar.gz
 
 echo "extrae openssl"
-tar xzf ../sources/openssl-OpenSSL_1_1_1k.tar.gz
+tar xzf ../sources/openssl-OpenSSL_1_1_1l.tar.gz
 
 echo "extrae cjose"
 tar xzf ../sources/cjose-0.6.1.tar.gz
