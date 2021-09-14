@@ -59,6 +59,7 @@ cd ../..
 #------------------------------------------
 echo "===================== UNWIND ======================="
 cd build/libunwind-1.5
+sh autogen.sh
 ./configure --prefix=/yuneta/development/output
 make
 make install
