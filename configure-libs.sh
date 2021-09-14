@@ -58,7 +58,7 @@ cd ../..
 #   Libunwind
 #------------------------------------------
 echo "===================== UNWIND ======================="
-cd build/libunwind-1.3.1
+cd build/libunwind-1.5
 ./configure --prefix=/yuneta/development/output
 make
 make install
