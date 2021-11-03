@@ -81,11 +81,11 @@ cd ../..
 #   libncurses
 #------------------------------------------
 echo "===================== NCURSES ======================="
-cd build/ncurses-6.0
+cd build/ncurses-6.3
 
 # HACK in recents gcc ncurses will fail.
 # WARNING **Before** make configure_ncurses.sh do:
-export CPPFLAGS="-P" #Fallo arreglado con la version ncurses-6.0 ?
+export CPPFLAGS="-P" #Fallo arreglado con la version ncurses-6.3 ?
 
 ./configure \
     --prefix=/yuneta/development/output \

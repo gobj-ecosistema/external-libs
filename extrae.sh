@@ -20,7 +20,7 @@ echo "extrae libuv"
 tar xzf ../sources/libuv-1.41.0.gines.tar.gz
 
 echo "extrae ncurses"
-tar xzf ../sources/ncurses-6.0.tar.gz
+tar xzf ../sources/ncurses-6.3.tar.gz
 
 echo "extrae nginx"
 tar xzf ../sources/nginx-1.20.1.tar.gz

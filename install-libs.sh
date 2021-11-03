@@ -43,7 +43,7 @@ cd ../..
 #   pero da igual, kubuntu ya tiene la 6.0
 #   (Debian y RedHat no)
 #------------------------------------------
-cd build/ncurses-6.0
+cd build/ncurses-6.3
 make install
 cd ../..
 
