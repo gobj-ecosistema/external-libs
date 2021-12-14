@@ -14,8 +14,8 @@ cd build/openssl-OpenSSL_1_1_1l
     --openssldir=/yuneta/bin/ssl \
     --strict-warnings \
     enable-ssl-trace
-#make
-#make install
+make
+make install
 cd ../..
 
 #------------------------------------------
@@ -37,8 +37,8 @@ cd build/curl-7.65.1
     --disable-ldap \
     --disable-ldaps \
     --disable-telnet
-#make
-#make install
+make
+make install
 cd ../..
 
 #------------------------------------------
@@ -48,8 +48,8 @@ echo "===================== JANSSON ======================="
 cd build/jansson-2.13.1
 autoreconf -i # do if first installation
 ./configure --prefix=/yuneta/development/output
-#make
-#make install
+make
+make install
 cd ../..
 
 
@@ -60,8 +60,8 @@ echo "===================== UNWIND ======================="
 cd build/libunwind-1.5
 sh autogen.sh
 ./configure --prefix=/yuneta/development/output
-#make
-#make install
+make
+make install
 cd ../..
 
 
@@ -72,8 +72,8 @@ echo "===================== LIBUV ======================="
 cd build/libuv-1.41.0.gines
 sh autogen.sh
 ./configure --prefix=/yuneta/development/output
-#make
-#make install
+make
+make install
 cd ../..
 
 #------------------------------------------
@@ -83,7 +83,7 @@ echo "===================== NCURSES ======================="
 cd build/ncurses-6.3
 
 # HACK in recents gcc ncurses will fail.
-# WARNING **Before** #make configure_ncurses.sh do:
+# WARNING **Before** make configure_ncurses.sh do:
 export CPPFLAGS="-P" #Fallo arreglado con la version ncurses-6.3 ?
 
 ./configure \
@@ -92,8 +92,8 @@ export CPPFLAGS="-P" #Fallo arreglado con la version ncurses-6.3 ?
     --enable-sp-funcs
 #         --enable-term-driver \
 #         --enable-ext-putwin
-#make
-#make install
+make
+make install
 cd ../..
 
 #------------------------------------------
@@ -108,8 +108,8 @@ cd build/nginx-1.20.1
     --with-stream \
     --with-stream_ssl_module \
     --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-OpenSSL_1_1_1l
-#make
-#make install
+make
+make install
 cd ../..
 
 #------------------------------------------
@@ -120,8 +120,8 @@ echo "===================== PCRE ======================="
 cd build/pcre2-10.37
 ./configure --prefix=/yuneta/development/output \
     --enable-jit
-#make
-#make install
+make
+make install
 cd ../..
 
 #------------------------------------------
@@ -137,8 +137,8 @@ CFLAGS="-Os -DSQLITE_THREADSAFE=0" ./configure \
     --enable-session \
     --enable-readline \
     --disable-shared
-#make
-#make install
+make
+make install
 cd ../..
 
 
@@ -153,8 +153,8 @@ cd build/cjose-0.6.1
     --disable-doxygen-doc \
     --with-openssl=/yuneta/development/output \
     --with-jansson=/yuneta/development/output
-#make
-#make install
+make
+make install
 cd ../..
 
 
@@ -176,8 +176,8 @@ export JANSSON_LIBS="-L/yuneta/development/output/lib -ljansson"
 export CJOSE_CFLAGS="-I/yuneta/development/output/include"
 export CJOSE_LIBS="-L/yuneta/development/output/lib -lcjose"
 ./configure --prefix=/yuneta/development/output  --without-apache --without-redis
-#make
-#make install
+make
+make install
 cd ../..
 
 
