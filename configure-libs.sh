@@ -36,6 +36,7 @@ cd build/curl-7.65.1
     --without-libidn2 \
     --disable-ldap \
     --disable-ldaps \
+    --disable-brotli \
     --disable-telnet
 make
 make install
