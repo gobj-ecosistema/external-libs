@@ -6,7 +6,7 @@ set -e
 #------------------------------------------
 #   openssl
 #------------------------------------------
-cd build/openssl-OpenSSL_1_1_1n
+cd build/openssl-OpenSSL_1_1_1o
 make install
 cd ../..
 
@@ -82,5 +82,3 @@ cd ../..
 cd build/liboauth2-1.4.3
 make install
 cd ../..
-
-
