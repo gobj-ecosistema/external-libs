@@ -23,7 +23,7 @@ echo "extrae ncurses"
 tar xzf ../sources/ncurses-6.3.tar.gz
 
 echo "extrae nginx"
-tar xzf ../sources/nginx-1.20.1.tar.gz
+tar xzf ../sources/nginx-1.22.0.tar.gz
 
 echo "extrae pcre2"
 tar xzf ../sources/pcre2-10.37.tar.gz
