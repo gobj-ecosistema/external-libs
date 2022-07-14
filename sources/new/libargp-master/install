@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-
-source ./common
-
-$INSTALL -m 644 "$BUILD_DIR/gllib/libargp.a" "$INSTALL_LIB_PREFIX" &&
-$INSTALL -m 644 "include/argp.h" "$INSTALL_INCLUDE_PREFIX" &&
-
-exit 0 # EX_OK

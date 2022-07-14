@@ -1,3 +1,0 @@
-OUTPUT_TYPE=library
-LIBRARY_NAME="libargp"
-GNULIB_DIR="gnulib"
