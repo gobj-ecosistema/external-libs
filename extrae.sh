@@ -17,7 +17,7 @@ echo "extrae libunwind"
 tar xzf ../sources/libunwind-1.5.tar.gz
 
 echo "extrae libuv"
-tar xzf ../sources/libuv-1.41.0.gines.tar.gz
+tar xzf ../sources/libuv-1.44.2.gines.tar.gz
 
 echo "extrae ncurses"
 tar xzf ../sources/ncurses-6.3.tar.gz
