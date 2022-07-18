@@ -30,6 +30,9 @@ tar xzf ../sources/liboauth2-1.4.3.tar.gz
 echo "extrae curl"
 tar xzf ../sources/curl-7.65.1.tar.gz
 
+echo "extrae argp"
+tar xzf ../sources/libargp-20110921.tar.gz
+
 cd ..
 
 #------------------------------------------
@@ -138,4 +141,14 @@ cd build/curl-7.65.1
     --disable-telnet
 make
 make install
+cd ../..
+
+#------------------------------------------
+#   argp
+#------------------------------------------
+echo "===================== CURL ======================="
+cd build/libargp-20110921
+./configure --prefix=/yuneta/development/output
+make
+cp ./gllib/.libs/libargp.a /yuneta/development/output/lib/
 cd ../..
