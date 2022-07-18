@@ -21,6 +21,9 @@ tar xzf ../sources/pcre2-10.37.tar.gz
 echo "extrae openssl"
 tar xzf ../sources/openssl-OpenSSL_1_1_1q.tar.gz
 
+echo "extrae cjose"
+tar xzf ../sources/cjose-0.6.1.tar.gz
+
 cd ..
 
 #------------------------------------------
@@ -66,6 +69,21 @@ cd build/openssl-OpenSSL_1_1_1q
     --openssldir=/yuneta/bin/ssl \
     --strict-warnings \
     enable-ssl-trace
+make
+make install
+cd ../..
+
+#------------------------------------------
+#   cjose
+#   https://github.com/cisco/cjose/releases
+#------------------------------------------
+echo "===================== CJOSE ======================="
+cd build/cjose-0.6.1
+./configure \
+    --prefix=/yuneta/development/output \
+    --disable-doxygen-doc \
+    --with-openssl=/yuneta/development/output \
+    --with-jansson=/yuneta/development/output
 make
 make install
 cd ../..
