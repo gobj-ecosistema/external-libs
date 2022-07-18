@@ -18,6 +18,9 @@ tar xzf ../sources/libuv-1.44.2.gines.tar.gz
 echo "extrae pcre2"
 tar xzf ../sources/pcre2-10.37.tar.gz
 
+echo "extrae openssl"
+tar xzf ../sources/openssl-OpenSSL_1_1_1q.tar.gz
+
 cd ..
 
 #------------------------------------------
@@ -49,6 +52,20 @@ cd ../..
 # HACK WARNING en redhat usa ./configure
 cd build/pcre2-10.37
 ./configure --prefix=/yuneta/development/output --enable-jit
+make
+make install
+cd ../..
+
+#------------------------------------------
+#   openssl
+#------------------------------------------
+echo "===================== OPENSSL ======================="
+#     --api=1.1.0 \
+cd build/openssl-OpenSSL_1_1_1q
+./config --prefix=/yuneta/development/output \
+    --openssldir=/yuneta/bin/ssl \
+    --strict-warnings \
+    enable-ssl-trace
 make
 make install
 cd ../..
