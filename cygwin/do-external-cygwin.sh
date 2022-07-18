@@ -24,6 +24,9 @@ tar xzf ../sources/openssl-OpenSSL_1_1_1q.tar.gz
 echo "extrae cjose"
 tar xzf ../sources/cjose-0.6.1.tar.gz
 
+echo "extrae oauth2"
+tar xzf ../sources/liboauth2-1.4.3.tar.gz
+
 cd ..
 
 #------------------------------------------
@@ -84,6 +87,28 @@ cd build/cjose-0.6.1
     --disable-doxygen-doc \
     --with-openssl=/yuneta/development/output \
     --with-jansson=/yuneta/development/output
+make
+make install
+cd ../..
+
+#------------------------------------------
+#   liboauth2
+#   https://github.com/zmartzone/liboauth2/releases
+#------------------------------------------
+echo "===================== LIBOAUTH2 ======================="
+cd build/liboauth2-1.4.3
+sh autogen.sh
+export OPENSSL_CFLAGS="-I/yuneta/development/output/include -Wno-error=char-subscripts"
+export OPENSSL_LIBS="-L/yuneta/development/output/lib -lssl -lcrypto"
+
+export CURL_LIBS="-L/yuneta/development/output/lib -lcurl"
+export CURL_CFLAGS="-I/yuneta/development/output/include"
+
+export JANSSON_CFLAGS="-I/yuneta/development/output/include"
+export JANSSON_LIBS="-L/yuneta/development/output/lib -ljansson"
+export CJOSE_CFLAGS="-I/yuneta/development/output/include"
+export CJOSE_LIBS="-L/yuneta/development/output/lib -lcjose"
+./configure --prefix=/yuneta/development/output  --without-apache --without-redis
 make
 make install
 cd ../..
