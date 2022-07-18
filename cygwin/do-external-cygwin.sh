@@ -27,6 +27,9 @@ tar xzf ../sources/cjose-0.6.1.tar.gz
 echo "extrae oauth2"
 tar xzf ../sources/liboauth2-1.4.3.tar.gz
 
+echo "extrae curl"
+tar xzf ../sources/curl-7.65.1.tar.gz
+
 cd ..
 
 #------------------------------------------
@@ -109,6 +112,30 @@ export JANSSON_LIBS="-L/yuneta/development/output/lib -ljansson"
 export CJOSE_CFLAGS="-I/yuneta/development/output/include"
 export CJOSE_LIBS="-L/yuneta/development/output/lib -lcjose"
 ./configure --prefix=/yuneta/development/output  --without-apache --without-redis
+make
+make install
+cd ../..
+
+#------------------------------------------
+#   curl
+#------------------------------------------
+# HACK WARNING reinstall the tar.gz before configure
+echo "===================== CURL ======================="
+cd build/curl-7.65.1
+./configure --prefix=/yuneta/development/output \
+    --with-ssl=/yuneta/development/output \
+    --enable-static \
+    --enable-http \
+    --enable-pop3 \
+    --enable-imap \
+    --enable-smtp \
+    --without-librtmp \
+    --without-libssh2 \
+    --without-libidn2 \
+    --disable-ldap \
+    --disable-ldaps \
+    --without-brotli \
+    --disable-telnet
 make
 make install
 cd ../..
