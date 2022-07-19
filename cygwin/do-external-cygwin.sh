@@ -35,6 +35,8 @@ tar xzf ../sources/libargp-20110921.tar.gz
 
 cd ..
 
+export CFLAGS="-Wno-error=char-subscripts -O0 -g3 -ggdb"
+
 #------------------------------------------
 #   Jansson
 #------------------------------------------
