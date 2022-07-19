@@ -38,6 +38,20 @@ cd ..
 export CFLAGS="-Wno-error=char-subscripts -O0 -g3 -ggdb"
 
 #------------------------------------------
+#   openssl
+#------------------------------------------
+echo "===================== OPENSSL ======================="
+#     --api=1.1.0 \
+cd build/openssl-OpenSSL_1_1_1q
+./config --prefix=/yuneta/development/output \
+    --openssldir=/yuneta/bin/ssl \
+    no-tests \
+    enable-ssl-trace
+make
+make install
+cd ../..
+
+#------------------------------------------
 #   Jansson
 #------------------------------------------
 echo "===================== JANSSON ======================="
@@ -66,20 +80,6 @@ cd ../..
 # HACK WARNING en redhat usa ./configure
 cd build/pcre2-10.37
 ./configure --prefix=/yuneta/development/output --enable-jit
-make
-make install
-cd ../..
-
-#------------------------------------------
-#   openssl
-#------------------------------------------
-echo "===================== OPENSSL ======================="
-#     --api=1.1.0 \
-cd build/openssl-OpenSSL_1_1_1q
-./config --prefix=/yuneta/development/output \
-    --openssldir=/yuneta/bin/ssl \
-    --strict-warnings \
-    enable-ssl-trace
 make
 make install
 cd ../..
