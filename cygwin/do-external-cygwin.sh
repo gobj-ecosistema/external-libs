@@ -106,7 +106,7 @@ cd ../..
 echo "===================== LIBOAUTH2 ======================="
 cd build/liboauth2-1.4.4.2
 sh autogen.sh
-export OPENSSL_CFLAGS="-I/yuneta/development/output/include -Wno-error=char-subscripts"
+export OPENSSL_CFLAGS="-I/yuneta/development/output/include -Wno-error=char-subscripts -O0 -g3 -ggdb"
 export OPENSSL_LIBS="-L/yuneta/development/output/lib -lssl -lcrypto"
 
 export CURL_LIBS="-L/yuneta/development/output/lib -lcurl"
@@ -152,5 +152,6 @@ echo "===================== CURL ======================="
 cd build/libargp-20110921
 ./configure --prefix=/yuneta/development/output
 make
+make install
 cp ./gllib/.libs/libargp.a /yuneta/development/output/lib/
 cd ../..
