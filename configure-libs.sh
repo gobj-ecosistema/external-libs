@@ -164,7 +164,7 @@ cd ../..
 #   https://github.com/zmartzone/liboauth2/releases
 #------------------------------------------
 echo "===================== LIBOAUTH2 ======================="
-cd build/liboauth2-1.4.3
+cd build/liboauth2-1.4.4.2
 sh autogen.sh
 export OPENSSL_CFLAGS="-I/yuneta/development/output/include"
 export OPENSSL_LIBS="-L/yuneta/development/output/lib -lssl -lcrypto"

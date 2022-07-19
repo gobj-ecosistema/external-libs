@@ -25,7 +25,7 @@ echo "extrae cjose"
 tar xzf ../sources/cjose-0.6.1.tar.gz
 
 echo "extrae oauth2"
-tar xzf ../sources/liboauth2-1.4.3.tar.gz
+tar xzf ../sources/liboauth2-1.4.4.2.tar.gz
 
 echo "extrae curl"
 tar xzf ../sources/curl-7.65.1.tar.gz
@@ -102,7 +102,7 @@ cd ../..
 #   https://github.com/zmartzone/liboauth2/releases
 #------------------------------------------
 echo "===================== LIBOAUTH2 ======================="
-cd build/liboauth2-1.4.3
+cd build/liboauth2-1.4.4.2
 sh autogen.sh
 export OPENSSL_CFLAGS="-I/yuneta/development/output/include -Wno-error=char-subscripts"
 export OPENSSL_LIBS="-L/yuneta/development/output/lib -lssl -lcrypto"

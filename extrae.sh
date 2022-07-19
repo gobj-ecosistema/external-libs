@@ -38,7 +38,7 @@ echo "extrae cjose"
 tar xzf ../sources/cjose-0.6.1.tar.gz
 
 echo "extrae oauth2"
-tar xzf ../sources/liboauth2-1.4.3.tar.gz
+tar xzf ../sources/liboauth2-1.4.4.2.tar.gz
 
 
 cd ..
