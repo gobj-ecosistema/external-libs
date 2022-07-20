@@ -26,7 +26,7 @@ echo "extrae nginx"
 tar xzf ../sources/nginx-1.22.0.tar.gz
 
 echo "extrae pcre2"
-tar xzf ../sources/pcre2-10.37.tar.gz
+tar xzf ../sources/pcre2-10.40.tar.gz
 
 echo "extrae sqlite"
 tar xzf ../sources/sqlite-autoconf-3260000.tar.gz

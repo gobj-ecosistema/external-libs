@@ -16,7 +16,7 @@ echo "extrae libuv"
 tar xzf ../sources/libuv-1.44.2.gines.tar.gz
 
 echo "extrae pcre2"
-tar xzf ../sources/pcre2-10.37.tar.gz
+tar xzf ../sources/pcre2-10.40.tar.gz
 
 echo "extrae openssl"
 tar xzf ../sources/openssl-OpenSSL_1_1_1q.tar.gz
@@ -78,7 +78,7 @@ cd ../..
 #   PCRE
 #------------------------------------------
 # HACK WARNING en redhat usa ./configure
-cd build/pcre2-10.37
+cd build/pcre2-10.40
 ./configure --prefix=/yuneta/development/output --enable-jit
 make
 make install
