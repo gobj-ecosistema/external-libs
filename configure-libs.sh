@@ -3,6 +3,8 @@
 #  Exit immediately if a command exits with a non-zero status.
 set -e
 
+export CFLAGS="-Wno-error=char-subscripts -O0 -g3 -ggdb"
+
 #------------------------------------------
 #   openssl
 #------------------------------------------
@@ -12,6 +14,7 @@ cd build/openssl-OpenSSL_1_1_1q
 ./config \
     --prefix=/yuneta/development/output \
     --openssldir=/yuneta/bin/ssl \
+    no-tests \
     enable-ssl-trace
 make
 make install
