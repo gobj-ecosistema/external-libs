@@ -26,6 +26,12 @@ int uv_not_accept(uv_stream_t* server) {
   return 0;
 }
 
+Hackeo de pcre2
+===============
+Hay que añadir a pcre2posix.h
+
+    #pragma once    /* GMS */
+
 
 Hackeo de ocilib
 ================
