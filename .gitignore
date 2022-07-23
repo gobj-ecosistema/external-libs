@@ -7,6 +7,7 @@ debug/
 a.out
 *.kdev4
 core.*
+xbuild/
 
 .hgignore
 .hgtags
