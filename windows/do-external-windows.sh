@@ -5,19 +5,19 @@ set -e
 
 cd /c/yuneta/development/yuneta/^gobj-ecosistema/external-libs
 
-#rm -rf build/
-#mkdir build
-#cd build
+rm -rf build/
+mkdir build
+cd build
 
-#echo "extrae jannson"
-#tar xzf ../sources/jansson-2.13.1.tar.gz
+echo "extrae jannson"
+tar xzf ../sources/jansson-2.13.1.tar.gz
 
-##echo "extrae libuv"
-#tar xzf ../sources/libuv-1.44.2.gines.tar.gz
+echo "extrae libuv"
+tar xzf ../sources/libuv-1.44.2.gines.tar.gz
 
-#echo "extrae pcre2"
-#tar xzf ../sources/pcre2-10.40.tar.gz
-#
+echo "extrae pcre2"
+tar xzf ../sources/pcre2-10.40.tar.gz
+
 #echo "extrae openssl"
 #tar xzf ../sources/openssl-OpenSSL_1_1_1q.tar.gz
 
