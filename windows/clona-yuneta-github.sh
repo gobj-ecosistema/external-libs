@@ -53,4 +53,4 @@ git clone git@github.com:yuno-store/dba_postgres /c/yuneta/development/yuneta/^y
 ################################################
 #   Windows
 ################################################
-git clone git@github.com:niyamaka/windows.git /c/yuneta/projects/windows
+git clone git@github.com:niyamaka/windows.git /c/yuneta/development/projects/windows
