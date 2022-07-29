@@ -3,7 +3,7 @@
 #  Exit immediately if a command exits with a non-zero status.
 set -e
 
-rm -rf build/
+#rm -rf build/
 mkdir build
 cd build
 
