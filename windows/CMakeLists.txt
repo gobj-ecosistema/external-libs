@@ -1,5 +1,6 @@
 ##############################################
 #   CMake
+#   En cmake options: -DCMAKE_INSTALL_PREFIX:PATH=c:/yuneta/development/output
 ##############################################
 project(yuneta-all C)
 cmake_minimum_required(VERSION 3.0)
