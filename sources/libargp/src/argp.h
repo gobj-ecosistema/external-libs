@@ -18,16 +18,12 @@
    License along with the GNU C Library; if not, write to the Free
    Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
    02111-1307 USA.  */
-	
-/* Warning THIS IS NOT THE ORIGINAL gnu provided file!
- * 
- * This file modified to compile as a standard library (not part of GLIBC)
- * under the mingw environment by chris-piker@uiowa.edu 
- */
 
-#ifdef __linux__
-#error Stop! Do not use this file it is a hacked version to port argp to windows and Solaris
-#endif
+/* Warning THIS IS NOT THE ORIGINAL gnu provided file!
+ *
+ * This file modified to compile as a standard library (not part of GLIBC)
+ * under the mingw environment by chris-piker@uiowa.edu
+ */
 
 #ifndef _ARGP_H
 #define _ARGP_H
@@ -403,7 +399,7 @@ struct argp_state
  extern error_t argp_parse (const struct argp * argp,
 			   int argc, char ** argv,
 			   unsigned __flags, int * arg_index,
-			   void * input); 
+			   void * input);
 
 /* Global variables.  */
 

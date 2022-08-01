@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(libargp C)
+project(argp C)
 
 include(CheckIncludeFiles)
 include(CheckSymbolExists)
@@ -47,6 +47,7 @@ set (HDRS
 #   Core lib
 ##############################################
 OPTION(BUILD_STATIC_LIBS "Build static libraries." ON)
+
 if (MSVC)
     # Turn off Microsofts "security" warnings.
     add_definitions( "/W3 /D_CRT_SECURE_NO_WARNINGS /wd4005 /wd4996 /nologo" )
@@ -57,7 +58,7 @@ if (MSVC)
     endif()
 endif()
 
-add_library(libargp ${SRCS} ${HDRS})
+add_library(argp ${SRCS} ${HDRS})
 
 ##############################################
 #   System install
@@ -65,7 +66,7 @@ add_library(libargp ${SRCS} ${HDRS})
 install(FILES ${HDRS} DESTINATION ${INC_DEST_DIR})
 
 install(
-        TARGETS libargp
+        TARGETS argp
         PERMISSIONS
         OWNER_READ OWNER_WRITE
         GROUP_READ GROUP_WRITE

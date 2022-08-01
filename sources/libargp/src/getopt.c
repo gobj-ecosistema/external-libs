@@ -30,10 +30,6 @@
 # include <config.h>
 #endif
 
-#ifdef __linux__
-#error "Stop! Don't use this file it is a hacked version to port argp to windows"
-#endif
-
 #include <stdio.h>
 
 /* Comment out all this code if we are using the GNU C Library, and are not

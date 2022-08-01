@@ -18,13 +18,13 @@
    License along with the GNU C Library; if not, write to the Free
    Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
    02111-1307 USA.  */
-	
+
 /* Warning THIS IS NOT THE ORIGINAL gnu provided file!
- * 
+ *
  * This file modified to compile as a standard library (not part of GLIBC)
- * under the mingw environment by chris-piker@uiowa.edu 
+ * under the mingw environment by chris-piker@uiowa.edu
  */
-		
+
 #ifndef _GNU_SOURCE
 # define _GNU_SOURCE	1
 #endif
@@ -103,13 +103,9 @@ char *strerror (int errnum);
 # define SIZE_MAX ((size_t) -1)
 #endif
 
-#ifdef __linux__
-#error Argp is build into glibc, no need to build this is linux
-#endif
-
 /* Don't have this in mingw32 */
 void* mempcpy(void* dest, const void* src, size_t n){
-	
+
 	return ((char*) memcpy(dest, src, n)) + n;
 }
 
@@ -124,17 +120,17 @@ char* strchrnul (const char *s, int c_in){
 		return sRet;
 }
 
-/* The strndup() function is similar, but only copies at most n 
+/* The strndup() function is similar, but only copies at most n
  * characters. If s is longer than n, only n characters are copied,
- * and a terminating null byte ('\0') is added. 
+ * and a terminating null byte ('\0') is added.
  */
 char* strndup (const char *s, size_t n){
 	size_t len_s;
 	char* sNew;
-	
+
 	len_s = strlen(s);
 	if(len_s < n){
-		
+
 		if( (sNew = (char*) calloc(len_s + 1, sizeof(char))) == NULL)
 			return NULL;
 		memcpy(sNew, s, len_s);
@@ -1884,4 +1880,3 @@ argp_failure (const struct argp_state *state, int status, int errnum,
 	}
     }
 }
-
