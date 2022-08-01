@@ -29,9 +29,6 @@ tar xzf ../sources/pcre2-10.40.tar.gz
 #
 #echo "extrae curl"
 #tar xzf ../sources/curl-7.65.1.tar.gz
-#
-#echo "extrae argp"
-#tar xzf ../sources/libargp-20110921.tar.gz
 
 cd ..
 
