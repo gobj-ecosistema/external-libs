@@ -38,9 +38,6 @@ set (SRCS
 )
 set (HDRS
     src/argp.h
-    src/argp-fmtstream.h
-    src/getopt.h
-    src/getopt_int.h
 )
 
 ##############################################

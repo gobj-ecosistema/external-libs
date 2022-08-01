@@ -56,8 +56,6 @@
 #include <stdint.h>
 #include <malloc.h>
 
-
-
 #include <stddef.h>
 #include <stdlib.h>
 #include <string.h>
@@ -65,6 +63,11 @@
 #include <stdarg.h>
 #include <ctype.h>
 #include <limits.h>
+
+#if defined(WIN32) || defined(_WINDOWS)
+    #define strcasecmp _stricmp
+#endif
+
 #ifdef _LIBC
 # include <../libio/libioP.h>
 # include <wchar.h>

@@ -33,6 +33,7 @@
 #elif defined(WIN32) || defined(_WINDOWS)
     #include <io.h>
     #include <sys/types.h>
+    #define ssize_t size_t
 #endif
 
 #ifndef __attribute__

@@ -46,12 +46,16 @@
 
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
 #include <limits.h>
+#if defined(__linux__)
+    #include <unistd.h>
+#elif defined(WIN32) || defined(_WINDOWS)
+    #include <io.h>
+#endif
 #include "./getopt.h"
 #include "./getopt_int.h"
 
-#ifdef __MINGW32__
+#if defined(WIN32) || defined(_WINDOWS)
 
 #include <malloc.h>
 
@@ -990,4 +994,3 @@ _argp_input (const struct argp *argp, const struct argp_state *state)
 
   return 0;
 }
-

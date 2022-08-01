@@ -59,7 +59,7 @@ typedef int error_t;
 extern "C" {
 #endif
 
-#ifdef __MINGW32__
+#if defined(WIN32) || defined(_WINDOWS)
 extern char *program_invocation_name;
 #define HAVE_DECL_PROGRAM_INVOCATION_NAME 1
 #endif
