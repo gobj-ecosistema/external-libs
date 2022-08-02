@@ -1,4 +1,4 @@
 # This is a generated file.
 MESSAGE("When testing is complete, review test output in the
-\"C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/build/Testing/Temporary\" folder.")
+\"C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/win_build/Testing/Temporary\" folder.")
 MESSAGE(" ")

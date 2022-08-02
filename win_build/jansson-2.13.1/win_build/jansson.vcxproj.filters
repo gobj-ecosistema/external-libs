@@ -1,78 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\dump.c">
+    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\dump.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\error.c">
+    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\error.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\hashtable.c">
+    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\hashtable.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\hashtable_seed.c">
+    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\hashtable_seed.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\load.c">
+    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\load.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\memory.c">
+    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\memory.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\pack_unpack.c">
+    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\pack_unpack.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\strbuffer.c">
+    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\strbuffer.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\strconv.c">
+    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\strconv.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\utf.c">
+    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\utf.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\value.c">
+    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\value.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
-    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\version.c">
+    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\version.c">
       <Filter>Library Sources</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\hashtable.h">
+    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\hashtable.h">
       <Filter>Library Private Headers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\jansson_private.h">
+    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\jansson_private.h">
       <Filter>Library Private Headers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\strbuffer.h">
+    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\strbuffer.h">
       <Filter>Library Private Headers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\utf.h">
+    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\utf.h">
       <Filter>Library Private Headers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\build\private_include\jansson_private_config.h">
+    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\win_build\private_include\jansson_private_config.h">
       <Filter>Library Private Headers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\build\include\jansson_config.h">
+    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\win_build\include\jansson_config.h">
       <Filter>Library Public Headers</Filter>
     </ClInclude>
-    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\src\jansson.h">
+    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\src\jansson.h">
       <Filter>Library Public Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\CMakeLists.txt" />
+    <CustomBuild Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Library Private Headers">
-      <UniqueIdentifier>{DAE18015-D64F-3C5A-BA14-6A29E27252FD}</UniqueIdentifier>
+      <UniqueIdentifier>{897729E1-2586-3C2A-9486-E7487758FCCD}</UniqueIdentifier>
     </Filter>
     <Filter Include="Library Public Headers">
-      <UniqueIdentifier>{5D794C5F-A999-3D5E-A3D6-3E7A9FDB13E0}</UniqueIdentifier>
+      <UniqueIdentifier>{9FAC1392-3150-3918-8D63-865A6C296A2C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Library Sources">
-      <UniqueIdentifier>{9090FB90-E610-379F-A38E-CB6A1644A088}</UniqueIdentifier>
+      <UniqueIdentifier>{1659E141-ED98-3D84-B692-F3E194D90D56}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

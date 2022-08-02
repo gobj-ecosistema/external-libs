@@ -1,6 +1,7 @@
 .vscode/
 cmake-build-release/
 cmake-build-debug/
+CMakeFiles/
 release/
 debug/
 build/

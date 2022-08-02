@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\jansson-2.13.1\build\CMakeFiles\5d37b969548310d5ce7818824c732519\RUN_TESTS_force.rule">
+    <CustomBuild Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\jansson-2.13.1\win_build\CMakeFiles\4d6305ba77e2935338579d9bfec68f02\RUN_TESTS_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{45468FAD-81E6-31A2-9389-61E2B59E53A4}</UniqueIdentifier>
+      <UniqueIdentifier>{9163E891-BC16-3D85-B24C-AEF1D161A004}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

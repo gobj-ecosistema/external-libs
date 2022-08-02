@@ -87,18 +87,18 @@ C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/SelectLibraryConfigurations.cmake
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/CMakeLists.txt
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/build/CMakeFiles/3.23.2/CMakeCCompiler.cmake
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/build/CMakeFiles/3.23.2/CMakeRCCompiler.cmake
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/build/CMakeFiles/3.23.2/CMakeSystem.cmake
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/cmake/FindEditline.cmake
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/cmake/FindPackageHandleStandardArgs.cmake
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/cmake/FindReadline.cmake
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/cmake/pcre2-config-version.cmake.in
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/cmake/pcre2-config.cmake.in
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/config-cmake.h.in
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/libpcre2-8.pc.in
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/libpcre2-posix.pc.in
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/pcre2-config.in
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/src/pcre2.h.in
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/src/pcre2_chartables.c.dist
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/CMakeLists.txt
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/cmake/FindEditline.cmake
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/cmake/FindPackageHandleStandardArgs.cmake
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/cmake/FindReadline.cmake
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/cmake/pcre2-config-version.cmake.in
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/cmake/pcre2-config.cmake.in
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/config-cmake.h.in
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/libpcre2-8.pc.in
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/libpcre2-posix.pc.in
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/pcre2-config.in
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/src/pcre2.h.in
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/src/pcre2_chartables.c.dist
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/win_build/CMakeFiles/3.23.2/CMakeCCompiler.cmake
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/win_build/CMakeFiles/3.23.2/CMakeRCCompiler.cmake
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/pcre2-10.40/win_build/CMakeFiles/3.23.2/CMakeSystem.cmake

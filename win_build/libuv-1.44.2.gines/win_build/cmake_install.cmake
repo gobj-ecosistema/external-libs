@@ -1,4 +1,4 @@
-# Install script for directory: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines
+# Install script for directory: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,53 +33,53 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/libuv" TYPE FILE FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/LICENSE")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/libuv" TYPE FILE FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/LICENSE")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES
-    "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/libuv.pc"
-    "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/libuv-static.pc"
+    "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/libuv.pc"
+    "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/libuv-static.pc"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/Debug/uv.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/Debug/uv.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/Release/uv.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/Release/uv.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/MinSizeRel/uv.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/MinSizeRel/uv.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/RelWithDebInfo/uv.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/RelWithDebInfo/uv.lib")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/Debug/uv.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/Debug/uv.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/Release/uv.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/Release/uv.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/MinSizeRel/uv.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/MinSizeRel/uv.dll")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/RelWithDebInfo/uv.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE SHARED_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/RelWithDebInfo/uv.dll")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/Debug/uv_a.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/Debug/uv_a.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/Release/uv_a.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/Release/uv_a.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/MinSizeRel/uv_a.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/MinSizeRel/uv_a.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/RelWithDebInfo/uv_a.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/RelWithDebInfo/uv_a.lib")
   endif()
 endif()
 
@@ -87,7 +87,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/libuv/libuvConfig.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/libuv/libuvConfig.cmake"
-         "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/Export/lib/cmake/libuv/libuvConfig.cmake")
+         "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/CMakeFiles/Export/lib/cmake/libuv/libuvConfig.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/libuv/libuvConfig-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -96,18 +96,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libuv" TYPE FILE FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/Export/lib/cmake/libuv/libuvConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libuv" TYPE FILE FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/CMakeFiles/Export/lib/cmake/libuv/libuvConfig.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libuv" TYPE FILE FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/Export/lib/cmake/libuv/libuvConfig-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libuv" TYPE FILE FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/CMakeFiles/Export/lib/cmake/libuv/libuvConfig-debug.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libuv" TYPE FILE FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/Export/lib/cmake/libuv/libuvConfig-minsizerel.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libuv" TYPE FILE FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/CMakeFiles/Export/lib/cmake/libuv/libuvConfig-minsizerel.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libuv" TYPE FILE FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/Export/lib/cmake/libuv/libuvConfig-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libuv" TYPE FILE FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/CMakeFiles/Export/lib/cmake/libuv/libuvConfig-relwithdebinfo.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libuv" TYPE FILE FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/Export/lib/cmake/libuv/libuvConfig-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/libuv" TYPE FILE FILES "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/CMakeFiles/Export/lib/cmake/libuv/libuvConfig-release.cmake")
   endif()
 endif()
 
@@ -119,5 +119,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

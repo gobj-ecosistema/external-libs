@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{84888A89-1F62-3D79-ABD7-6D5A3A92086C}</ProjectGuid>
+    <ProjectGuid>{C8733DAF-507B-3F7A-B5E4-B36DA6D9D61C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
     <Platform>Win32</Platform>
@@ -118,7 +118,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\pcre2-10.40\build\CMakeFiles\1672071af5e8da2c9c628481b8519b3c\INSTALL_force.rule">
+    <CustomBuild Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\pcre2-10.40\win_build\CMakeFiles\de686502cc490422338fe3b96c60f6f7\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 cd .
@@ -130,7 +130,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\pcre2-10.40\build\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\pcre2-10.40\win_build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
@@ -143,7 +143,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\pcre2-10.40\build\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\pcre2-10.40\win_build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
@@ -156,7 +156,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\pcre2-10.40\build\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\pcre2-10.40\win_build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
@@ -169,19 +169,19 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\pcre2-10.40\build\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\pcre2-10.40\win_build\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\pcre2-10.40\build\ZERO_CHECK.vcxproj">
-      <Project>{8056F1EF-F1AD-3C0A-AEBB-BEBDFF9E8299}</Project>
+    <ProjectReference Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\pcre2-10.40\win_build\ZERO_CHECK.vcxproj">
+      <Project>{1D2918DC-4264-3DDD-85F4-5570D23DB9EA}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\pcre2-10.40\build\ALL_BUILD.vcxproj">
-      <Project>{CC5FC269-785B-3BEF-A886-FA50558AA886}</Project>
+    <ProjectReference Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\pcre2-10.40\win_build\ALL_BUILD.vcxproj">
+      <Project>{3B6554F7-100F-39C2-B3C7-F12B0C0903C9}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

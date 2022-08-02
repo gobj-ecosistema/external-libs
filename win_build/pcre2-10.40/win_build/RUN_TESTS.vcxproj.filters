@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\pcre2-10.40\build\CMakeFiles\1672071af5e8da2c9c628481b8519b3c\RUN_TESTS_force.rule">
+    <CustomBuild Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\pcre2-10.40\win_build\CMakeFiles\de686502cc490422338fe3b96c60f6f7\RUN_TESTS_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{25B716D9-076D-3E14-BED3-4E33B610341A}</UniqueIdentifier>
+      <UniqueIdentifier>{8AA70F49-392E-30D2-8363-E33E074C6005}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

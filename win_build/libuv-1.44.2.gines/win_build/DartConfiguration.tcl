@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines
-BuildDirectory: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build
+SourceDirectory: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines
+BuildDirectory: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines"
 MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

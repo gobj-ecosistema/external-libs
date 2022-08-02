@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\pcre2-10.40\src\pcre2posix.c">
+    <ClCompile Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\pcre2-10.40\src\pcre2posix.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\pcre2-10.40\src\pcre2posix.h">
+    <ClInclude Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\pcre2-10.40\src\pcre2posix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\pcre2-10.40\CMakeLists.txt" />
+    <CustomBuild Include="C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\win_build\pcre2-10.40\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{E80CDCAA-2CFE-33DF-AF42-0E08BDF1CAA0}</UniqueIdentifier>
+      <UniqueIdentifier>{7083CF78-7BF5-36A6-8E39-487507C7253A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{003D9864-96C9-309D-9797-962A7B6CCFC3}</UniqueIdentifier>
+      <UniqueIdentifier>{12A35CF1-BEFA-30CB-88CB-0637AD203EB2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -86,9 +86,9 @@ C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/Platform/WindowsPaths.cmake
 C:/Program Files/CMake/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/CMakeLists.txt
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/3.23.2/CMakeCCompiler.cmake
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/3.23.2/CMakeRCCompiler.cmake
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/3.23.2/CMakeSystem.cmake
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/libuv-static.pc.in
-C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/libuv.pc.in
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/CMakeLists.txt
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/libuv-static.pc.in
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/libuv.pc.in
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/CMakeFiles/3.23.2/CMakeCCompiler.cmake
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/CMakeFiles/3.23.2/CMakeRCCompiler.cmake
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/win_build/libuv-1.44.2.gines/win_build/CMakeFiles/3.23.2/CMakeSystem.cmake
