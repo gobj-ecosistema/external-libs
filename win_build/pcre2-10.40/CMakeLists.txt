@@ -285,10 +285,10 @@ ENDIF(MINGW)
 IF(MSVC)
   OPTION(PCRE2_STATIC_RUNTIME
 	"ON=Compile against the static runtime (/MT)."
-	OFF)
+	ON)
   OPTION(INSTALL_MSVC_PDB
          "ON=Install .pdb files built by MSVC, if generated"
-         OFF)
+         ON)
 ENDIF(MSVC)
 
 # bzip2 lib
