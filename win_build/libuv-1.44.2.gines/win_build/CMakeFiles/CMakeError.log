@@ -1,0 +1,63 @@
+Performing C SOURCE FILE Test UV_LINT_NO_UNUSED_PARAMETER failed with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_3848a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_NO_UNUSED_PARAMETER /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3848a.dir\Debug\\" /Fd"cmTC_3848a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wno-unused-parameter "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+cl : Command line error D8021: invalid numeric argument '/Wno-unused-parameter' [C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\cmTC_3848a.vcxproj]
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_STRICT_PROTOTYPES failed with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_92b29.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_STRICT_PROTOTYPES /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_92b29.dir\Debug\\" /Fd"cmTC_92b29.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wstrict-prototypes "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+cl : Command line error D8021: invalid numeric argument '/Wstrict-prototypes' [C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\cmTC_92b29.vcxproj]
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_EXTRA failed with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_75eef.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_EXTRA /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_75eef.dir\Debug\\" /Fd"cmTC_75eef.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -Wextra "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+cl : Command line error D8021: invalid numeric argument '/Wextra' [C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\cmTC_75eef.vcxproj]
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_F_STRICT_ALIASING failed with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_51021.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_F_STRICT_ALIASING /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51021.dir\Debug\\" /Fd"cmTC_51021.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  -fno-strict-aliasing "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+cl : Command line warning D9002: ignoring unknown option '-fno-strict-aliasing' [C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\cmTC_51021.vcxproj]
+  cmTC_51021.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_51021.exe
+
+
+Source file was:
+int main(void) { return 0; }

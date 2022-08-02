@@ -1,0 +1,13 @@
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/Experimental.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/Nightly.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/Continuous.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/uv.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/uv_a.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/uv_run_benchmarks_a.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/uv_run_tests.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/uv_run_tests_a.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/RUN_TESTS.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/INSTALL.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/ALL_BUILD.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/ZERO_CHECK.dir

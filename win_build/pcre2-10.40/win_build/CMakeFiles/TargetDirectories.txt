@@ -1,0 +1,8 @@
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/build/CMakeFiles/pcre2-8-static.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/build/CMakeFiles/pcre2-posix-static.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/build/CMakeFiles/pcre2grep.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/build/CMakeFiles/pcre2test.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/build/CMakeFiles/RUN_TESTS.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/build/CMakeFiles/INSTALL.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/build/CMakeFiles/ALL_BUILD.dir
+C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/pcre2-10.40/build/CMakeFiles/ZERO_CHECK.dir

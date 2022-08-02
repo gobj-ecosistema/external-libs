@@ -1,0 +1,300 @@
+The system is: Windows - 10.0.19043 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 8/1/2022 9:16:55 AM.
+Project "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\3.23.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\3.23.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\3.23.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.02
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/3.23.2/CompilerIdC/CompilerIdC.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_916ec.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_916ec.dir\Debug\\" /Fd"cmTC_916ec.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.23\Modules\CMakeCCompilerABI.c"
+  
+  cmTC_916ec.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_916ec.exe
+
+
+
+Performing C SOURCE FILE Test UV_LINT_W4 succeeded with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_560aa.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /W4 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_W4 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_560aa.dir\Debug\\" /Fd"cmTC_560aa.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+  cmTC_560aa.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_560aa.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_UNUSED_PARAMETER_MSVC succeeded with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_0493b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_NO_UNUSED_PARAMETER_MSVC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0493b.dir\Debug\\" /Fd"cmTC_0493b.dir\Debug\vc141.pdb" /Gd /TC /wd4100 /analyze- /errorReport:queue "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+  cmTC_0493b.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_0493b.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_CONDITIONAL_CONSTANT_MSVC succeeded with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_6365c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_NO_CONDITIONAL_CONSTANT_MSVC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6365c.dir\Debug\\" /Fd"cmTC_6365c.dir\Debug\vc141.pdb" /Gd /TC /wd4127 /analyze- /errorReport:queue "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+  cmTC_6365c.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_6365c.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_MSVC succeeded with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_1372a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_NO_NONSTANDARD_MSVC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1372a.dir\Debug\\" /Fd"cmTC_1372a.dir\Debug\vc141.pdb" /Gd /TC /wd4201 /analyze- /errorReport:queue "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+  cmTC_1372a.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_1372a.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC succeeded with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_d1cb0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1cb0.dir\Debug\\" /Fd"cmTC_d1cb0.dir\Debug\vc141.pdb" /Gd /TC /wd4206 /analyze- /errorReport:queue "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+  cmTC_d1cb0.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_d1cb0.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC succeeded with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_e27ad.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e27ad.dir\Debug\\" /Fd"cmTC_e27ad.dir\Debug\vc141.pdb" /Gd /TC /wd4210 /analyze- /errorReport:queue "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+  cmTC_e27ad.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_e27ad.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC succeeded with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_f0d13.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0d13.dir\Debug\\" /Fd"cmTC_f0d13.dir\Debug\vc141.pdb" /Gd /TC /wd4232 /analyze- /errorReport:queue "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+  cmTC_f0d13.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_f0d13.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_HIDES_LOCAL succeeded with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_1ebf6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_NO_HIDES_LOCAL /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ebf6.dir\Debug\\" /Fd"cmTC_1ebf6.dir\Debug\vc141.pdb" /Gd /TC /wd4456 /analyze- /errorReport:queue "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+  cmTC_1ebf6.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_1ebf6.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_HIDES_PARAM succeeded with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_3d75c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_NO_HIDES_PARAM /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d75c.dir\Debug\\" /Fd"cmTC_3d75c.dir\Debug\vc141.pdb" /Gd /TC /wd4457 /analyze- /errorReport:queue "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+  cmTC_3d75c.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_3d75c.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_HIDES_GLOBAL succeeded with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_291b2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_NO_HIDES_GLOBAL /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_291b2.dir\Debug\\" /Fd"cmTC_291b2.dir\Debug\vc141.pdb" /Gd /TC /wd4459 /analyze- /errorReport:queue "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+  cmTC_291b2.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_291b2.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC succeeded with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_000a7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_000a7.dir\Debug\\" /Fd"cmTC_000a7.dir\Debug\vc141.pdb" /Gd /TC /wd4706 /analyze- /errorReport:queue "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+  cmTC_000a7.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_000a7.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_UNSAFE_MSVC succeeded with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_7775d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_NO_UNSAFE_MSVC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7775d.dir\Debug\\" /Fd"cmTC_7775d.dir\Debug\vc141.pdb" /Gd /TC /wd4996 /analyze- /errorReport:queue "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+  cmTC_7775d.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_7775d.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_WALL succeeded with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_52e25.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /Wall /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_WALL /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52e25.dir\Debug\\" /Fd"cmTC_52e25.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+  cmTC_52e25.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_52e25.exe
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_UTF8_MSVC succeeded with the following output:
+Change Dir: C:/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/libuv-1.44.2.gines/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe cmTC_128ae.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27048 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D UV_LINT_UTF8_MSVC /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_128ae.dir\Debug\\" /Fd"cmTC_128ae.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue  /utf-8 "C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\src.c"
+  
+  cmTC_128ae.vcxproj -> C:\yuneta\development\yuneta\^gobj-ecosistema\external-libs\build\libuv-1.44.2.gines\build\CMakeFiles\CMakeTmp\Debug\cmTC_128ae.exe
+
+
+Source file was:
+int main(void) { return 0; }
