@@ -10,7 +10,7 @@ export CFLAGS="-Wno-error=char-subscripts -O0 -g3 -ggdb"
 #------------------------------------------
 echo "===================== OPENSSL ======================="
 #     --api=1.1.0 \
-cd build/openssl-OpenSSL_1_1_1q
+cd build/openssl-OpenSSL_1_1_1s
 ./config \
     --prefix=/yuneta/development/output \
     --openssldir=/yuneta/bin/ssl \
