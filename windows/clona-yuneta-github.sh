@@ -38,6 +38,7 @@ git clone git@github.com:yuneta/extractjson /c/yuneta/development/yuneta/^yuneta
 git clone git@github.com:yuneta/yclone-project /c/yuneta/development/yuneta/^yuneta/yclone-project/
 git clone git@github.com:yuneta/yuno_agent22 /c/yuneta/development/yuneta/^yuneta/yuno_agent22/
 git clone git@github.com:yuneta/w2ui /c/yuneta/development/yuneta/^yuneta/w2ui/
+git clone git@github.com:yuneta/ymake-skeleton /c/yuneta/development/yuneta/^yuneta/ymake-skeleton/
 
 ################################################
 #   Clone yuno-store
