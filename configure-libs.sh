@@ -10,7 +10,7 @@ export CFLAGS="-Wno-error=char-subscripts -O0 -g3 -ggdb"
 #------------------------------------------
 echo "===================== OPENSSL ======================="
 #     --api=1.1.0 \
-cd build/openssl-OpenSSL_1_1_1s
+cd build/openssl-1.1.1t
 ./config \
     --prefix=/yuneta/development/output \
     --openssldir=/yuneta/bin/ssl \
@@ -110,7 +110,7 @@ cd build/nginx-1.22.0
     --with-http_ssl_module \
     --with-stream \
     --with-stream_ssl_module \
-    --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-OpenSSL_1_1_1s \
+    --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-1.1.1t \
     --with-openssl-opt=no-tests
 make
 make install

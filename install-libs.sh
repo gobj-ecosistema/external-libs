@@ -6,7 +6,7 @@ set -e
 #------------------------------------------
 #   openssl
 #------------------------------------------
-cd build/openssl-OpenSSL_1_1_1s
+cd build/openssl-1.1.1t
 make install
 cd ../..
 
