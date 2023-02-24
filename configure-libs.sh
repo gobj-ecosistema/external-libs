@@ -49,10 +49,17 @@ cd ../..
 #------------------------------------------
 echo "===================== JANSSON ======================="
 cd build/jansson-2.14
-autoreconf -i # do if first installation
-./configure --prefix=/yuneta/development/output
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX:PATH=/yuneta/development/output ..
 make
 make install
+cd ..
+#autoreconf -i # do if first installation
+#./configure --prefix=/yuneta/development/output
+#make
+#make install
+
 cd ../..
 
 
