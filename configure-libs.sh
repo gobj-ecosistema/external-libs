@@ -48,7 +48,7 @@ cd ../..
 #   Jansson
 #------------------------------------------
 echo "===================== JANSSON ======================="
-cd build/jansson-2.13.1
+cd build/jansson-2.14
 autoreconf -i # do if first installation
 ./configure --prefix=/yuneta/development/output
 make
