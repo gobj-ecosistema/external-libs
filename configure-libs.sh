@@ -51,7 +51,7 @@ echo "===================== JANSSON ======================="
 cd build/jansson-2.14
 mkdir build
 cd build
-cmake -DCMAKE_INSTALL_PREFIX:PATH=/yuneta/development/output ..
+cmake -DCMAKE_INSTALL_PREFIX:PATH=/yuneta/development/output -DJANSSON_BUILD_DOCS=OFF ..
 make
 make install
 cd ..
