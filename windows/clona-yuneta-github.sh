@@ -30,7 +30,7 @@ git clone git@github.com:yuneta/ytestconfig /c/yuneta/development/yuneta/^yuneta
 git clone git@github.com:yuneta/yuno_agent /c/yuneta/development/yuneta/^yuneta/yuno_agent
 git clone git@github.com:yuneta/yuno_cli /c/yuneta/development/yuneta/^yuneta/yuno_cli
 git clone git@github.com:yuneta/yuno-skeleton /c/yuneta/development/yuneta/^yuneta/yuno-skeleton
-git clone git@github.com:yuneta/ygclass-rename /c/yuneta/development/yuneta/^yuneta/ygclass-rename
+git clone git@github.com:yuneta/yclone-gclass /c/yuneta/development/yuneta/^yuneta/yclone-gclass
 git clone git@github.com:yuneta/yscapec /c/yuneta/development/yuneta/^yuneta/yscapec
 git clone git@github.com:yuneta/mxgraph-js.git /c/yuneta/development/yuneta/^yuneta/mxgraph-js
 git clone git@github.com:yuneta/ytests /c/yuneta/development/yuneta/^yuneta/ytests
