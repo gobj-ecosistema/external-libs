@@ -10,14 +10,17 @@ export CFLAGS="-Wno-error=char-subscripts -O0 -g3 -ggdb"
 #------------------------------------------
 echo "===================== OPENSSL ======================="
 #     --api=1.1.0 \
-cd build/openssl-1.1.1u
+cd build/openssl-3.1.2
 ./config \
     --prefix=/yuneta/development/output \
     --openssldir=/yuneta/bin/ssl \
+    --libdir=lib \
     no-tests \
     enable-ssl-trace
 make
 make install
+rm /yuneta/development/output/bin/c_rehash
+rm /yuneta/development/output/bin/openssl
 cd ../..
 
 #------------------------------------------
@@ -25,7 +28,7 @@ cd ../..
 #------------------------------------------
 # HACK WARNING reinstall the tar.gz before configure
 echo "===================== CURL ======================="
-cd build/curl-7.65.1
+cd build/curl-8.2.1
 ./configure --prefix=/yuneta/development/output \
     --with-ssl=/yuneta/development/output \
     --enable-static \
@@ -111,13 +114,13 @@ cd ../..
 #------------------------------------------
 # HACK sudo yum install pcre-devel.x86_64 zlib-devel.x86_64
 echo "===================== NGINX ======================="
-cd build/nginx-1.22.0
+cd build/nginx-1.24.0
 ./configure \
     --prefix=/yuneta/bin/nginx \
     --with-http_ssl_module \
     --with-stream \
     --with-stream_ssl_module \
-    --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-1.1.1u \
+    --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-3.1.2 \
     --with-openssl-opt=no-tests
 make
 make install
@@ -128,7 +131,7 @@ cd ../..
 #------------------------------------------
 # HACK WARNING en redhat usa ./configure
 echo "===================== PCRE ======================="
-cd build/pcre2-10.40
+cd build/pcre2-10.42
 ./configure --prefix=/yuneta/development/output \
     --enable-jit
 make
@@ -139,7 +142,7 @@ cd ../..
 #   Sqlite
 #------------------------------------------
 echo "===================== SQLITE ======================="
-cd build/sqlite-autoconf-3260000
+cd build/sqlite-autoconf-3430100
 CFLAGS="-Os -DSQLITE_THREADSAFE=0" ./configure \
     --prefix=/yuneta/development/output \
     --enable-fts5 \
@@ -158,7 +161,7 @@ cd ../..
 #   https://github.com/cisco/cjose/releases
 #------------------------------------------
 echo "===================== CJOSE ======================="
-cd build/cjose-0.6.1
+cd build/cjose-0.6.2.2
 ./configure \
     --prefix=/yuneta/development/output \
     --disable-doxygen-doc \
@@ -174,7 +177,7 @@ cd ../..
 #   https://github.com/zmartzone/liboauth2/releases
 #------------------------------------------
 echo "===================== LIBOAUTH2 ======================="
-cd build/liboauth2-1.4.4.2
+cd build/liboauth2-1.5.1
 sh autogen.sh
 export OPENSSL_CFLAGS="-I/yuneta/development/output/include"
 export OPENSSL_LIBS="-L/yuneta/development/output/lib -lssl -lcrypto"
@@ -184,8 +187,13 @@ export CURL_CFLAGS="-I/yuneta/development/output/include"
 
 export JANSSON_CFLAGS="-I/yuneta/development/output/include"
 export JANSSON_LIBS="-L/yuneta/development/output/lib -ljansson"
+
 export CJOSE_CFLAGS="-I/yuneta/development/output/include"
 export CJOSE_LIBS="-L/yuneta/development/output/lib -lcjose"
+
+export PCRE2_CFLAGS="-I/yuneta/development/output/include"
+export PCRE2_LIBS="-L/yuneta/development/output/lib -lpcre2-8"
+
 ./configure --prefix=/yuneta/development/output  --without-apache --without-redis
 make
 make install

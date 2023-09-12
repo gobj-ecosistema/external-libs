@@ -8,7 +8,7 @@ mkdir build
 cd build
 
 echo "extrae curl"
-tar xzf ../sources/curl-7.65.1.tar.gz
+tar xzf ../sources/curl-8.2.1.tar.gz
 
 echo "extrae jannson"
 tar xzf ../sources/jansson-2.14.tar.gz
@@ -23,22 +23,22 @@ echo "extrae ncurses"
 tar xzf ../sources/ncurses-6.3.tar.gz
 
 echo "extrae nginx"
-tar xzf ../sources/nginx-1.22.0.tar.gz
+tar xzf ../sources/nginx-1.24.0.tar.gz
 
 echo "extrae pcre2"
-tar xzf ../sources/pcre2-10.40.tar.gz
+tar xzf ../sources/pcre2-10.42.tar.gz
 
 echo "extrae sqlite"
-tar xzf ../sources/sqlite-autoconf-3260000.tar.gz
+tar xzf ../sources/sqlite-autoconf-3430100.tar.gz
 
 echo "extrae openssl"
-tar xzf ../sources/openssl-1.1.1u.tar.gz
+tar xzf ../sources/openssl-3.1.2.tar.gz
 
 echo "extrae cjose"
-tar xzf ../sources/cjose-0.6.1.tar.gz
+tar xzf ../sources/cjose-0.6.2.2.tar.gz
 
 echo "extrae oauth2"
-tar xzf ../sources/liboauth2-1.4.4.2.tar.gz
+tar xzf ../sources/liboauth2-1.5.1.tar.gz
 
 
 cd ..

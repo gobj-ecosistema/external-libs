@@ -6,14 +6,16 @@ set -e
 #------------------------------------------
 #   openssl
 #------------------------------------------
-cd build/openssl-1.1.1u
+cd build/openssl-3.1.2
 make install
+rm /yuneta/development/output/bin/c_rehash
+rm /yuneta/development/output/bin/openssl
 cd ../..
 
 #------------------------------------------
 #   curl
 #------------------------------------------
-cd build/curl-7.65.1
+cd build/curl-8.2.1
 make install
 cd ../..
 
@@ -50,21 +52,21 @@ cd ../..
 #------------------------------------------
 #   Nginx
 #------------------------------------------
-cd build/nginx-1.22.0
+cd build/nginx-1.24.0
 make install
 cd ../..
 
 #------------------------------------------
 #   PCRE
 #------------------------------------------
-cd build/pcre2-10.40
+cd build/pcre2-10.42
 make install
 cd ../..
 
 #------------------------------------------
 #   Sqlite
 #------------------------------------------
-cd build/sqlite-autoconf-3260000
+cd build/sqlite-autoconf-3430100
 make install
 cd ../..
 
@@ -72,13 +74,13 @@ cd ../..
 #------------------------------------------
 #   cjose
 #------------------------------------------
-cd build/cjose-0.6.1
+cd build/cjose-0.6.2.2
 make install
 cd ../..
 
 #------------------------------------------
 #   liboauth2
 #------------------------------------------
-cd build/liboauth2-1.4.4.2
+cd build/liboauth2-1.5.1
 make install
 cd ../..
