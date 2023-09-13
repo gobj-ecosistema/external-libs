@@ -22,13 +22,13 @@ tar xzf ../sources/pcre2-10.40.tar.gz
 #tar xzf ../sources/openssl-OpenSSL_1_1_1q.tar.gz
 
 #echo "extrae cjose"
-#tar xzf ../sources/cjose-0.6.2.2.tar.gz
+#tar xzf ../sources/cjose-0.6.1.tar.gz
 #
 #echo "extrae oauth2"
-#tar xzf ../sources/liboauth2-1.5.1.tar.gz
+#tar xzf ../sources/liboauth2-1.4.4.2.tar.gz
 #
 #echo "extrae curl"
-#tar xzf ../sources/curl-8.2.1.tar.gz
+#tar xzf ../sources/curl-7.65.1.tar.gz
 
 cd ..
 

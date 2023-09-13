@@ -10,7 +10,7 @@ export CFLAGS="-Wno-error=char-subscripts -O0 -g3 -ggdb"
 #------------------------------------------
 echo "===================== OPENSSL ======================="
 #     --api=1.1.0 \
-cd build/openssl-3.1.2
+cd build/openssl-1.1.1u
 ./config \
     --prefix=/yuneta/development/output \
     --openssldir=/yuneta/bin/ssl \
@@ -19,7 +19,6 @@ cd build/openssl-3.1.2
     enable-ssl-trace
 make
 make install
-rm /yuneta/development/output/bin/c_rehash
 rm /yuneta/development/output/bin/openssl
 cd ../..
 
@@ -28,7 +27,7 @@ cd ../..
 #------------------------------------------
 # HACK WARNING reinstall the tar.gz before configure
 echo "===================== CURL ======================="
-cd build/curl-8.2.1
+cd build/curl-7.65.1
 ./configure --prefix=/yuneta/development/output \
     --with-ssl=/yuneta/development/output \
     --enable-static \
@@ -120,7 +119,7 @@ cd build/nginx-1.24.0
     --with-http_ssl_module \
     --with-stream \
     --with-stream_ssl_module \
-    --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-3.1.2 \
+    --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-1.1.1u \
     --with-openssl-opt=no-tests
 make
 make install
@@ -161,7 +160,7 @@ cd ../..
 #   https://github.com/cisco/cjose/releases
 #------------------------------------------
 echo "===================== CJOSE ======================="
-cd build/cjose-0.6.2.2
+cd build/cjose-0.6.1
 ./configure \
     --prefix=/yuneta/development/output \
     --disable-doxygen-doc \
@@ -177,7 +176,7 @@ cd ../..
 #   https://github.com/zmartzone/liboauth2/releases
 #------------------------------------------
 echo "===================== LIBOAUTH2 ======================="
-cd build/liboauth2-1.5.1
+cd build/liboauth2-1.4.4.2
 sh autogen.sh
 export OPENSSL_CFLAGS="-I/yuneta/development/output/include"
 export OPENSSL_LIBS="-L/yuneta/development/output/lib -lssl -lcrypto"

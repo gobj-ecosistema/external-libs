@@ -6,16 +6,15 @@ set -e
 #------------------------------------------
 #   openssl
 #------------------------------------------
-cd build/openssl-3.1.2
+cd build/openssl-1.1.1u
 make install
-rm /yuneta/development/output/bin/c_rehash
 rm /yuneta/development/output/bin/openssl
 cd ../..
 
 #------------------------------------------
 #   curl
 #------------------------------------------
-cd build/curl-8.2.1
+cd build/curl-7.65.1
 make install
 cd ../..
 
@@ -74,13 +73,13 @@ cd ../..
 #------------------------------------------
 #   cjose
 #------------------------------------------
-cd build/cjose-0.6.2.2
+cd build/cjose-0.6.1
 make install
 cd ../..
 
 #------------------------------------------
 #   liboauth2
 #------------------------------------------
-cd build/liboauth2-1.5.1
+cd build/liboauth2-1.4.4.2
 make install
 cd ../..
