@@ -8,7 +8,6 @@ set -e
 #------------------------------------------
 cd build/openssl-1.1.1u
 make install
-rm /yuneta/development/output/bin/openssl
 cd ../..
 
 #------------------------------------------
