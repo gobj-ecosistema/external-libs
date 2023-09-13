@@ -21,8 +21,9 @@ cd ../..
 #   Jansson
 #------------------------------------------
 cd build/jansson-2.14
+cd build
 make install
-cd ../..
+cd ../../..
 
 #------------------------------------------
 #   unwind
@@ -82,3 +83,5 @@ cd ../..
 cd build/liboauth2-1.4.4.2
 make install
 cd ../..
+
+rm /yuneta/development/output/bin/openssl

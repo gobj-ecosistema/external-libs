@@ -19,7 +19,6 @@ cd build/openssl-1.1.1u
     enable-ssl-trace
 make
 make install
-rm /yuneta/development/output/bin/openssl
 cd ../..
 
 #------------------------------------------
@@ -197,3 +196,5 @@ export PCRE2_LIBS="-L/yuneta/development/output/lib -lpcre2-8"
 make
 make install
 cd ../..
+
+rm /yuneta/development/output/bin/openssl
