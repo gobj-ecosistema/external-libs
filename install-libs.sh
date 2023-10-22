@@ -85,3 +85,4 @@ make install
 cd ../..
 
 rm /yuneta/development/output/bin/openssl
+rm /yuneta/development/output/bin/curl*
