@@ -25,7 +25,7 @@ tar xzf ../sources/pcre2-10.40.tar.gz
 #tar xzf ../sources/cjose-0.6.1.tar.gz
 #
 #echo "extrae oauth2"
-#tar xzf ../sources/liboauth2-1.4.4.2.tar.gz
+#tar xzf ../sources/liboauth2-1.5.2.tar.gz
 #
 #echo "extrae curl"
 #tar xzf ../sources/curl-7.65.1.tar.gz
