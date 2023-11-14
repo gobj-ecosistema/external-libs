@@ -40,5 +40,8 @@ tar xzf ../sources/cjose-0.6.1.tar.gz
 echo "extrae oauth2"
 tar xzf ../sources/liboauth2-1.5.2.tar.gz
 
+echo "extrae libjwt"
+tar xzf ../sources/libjwt-1.16.0.tar.gz
+
 
 cd ..

@@ -86,3 +86,12 @@ cd ../..
 
 rm /yuneta/development/output/bin/openssl
 rm /yuneta/development/output/bin/curl*
+
+#------------------------------------------
+#   libjwt
+#------------------------------------------
+cd build/libjwt-1.16.0
+cd build
+ninja install
+cd ..
+cd ../..

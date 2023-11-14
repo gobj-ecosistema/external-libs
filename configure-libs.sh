@@ -199,3 +199,22 @@ cd ../..
 
 rm /yuneta/development/output/bin/openssl
 rm /yuneta/development/output/bin/curl*
+
+
+#------------------------------------------
+#   libjwt
+#------------------------------------------
+echo "===================== libjwt ======================="
+cd build/libjwt-1.16.0
+mkdir build
+cd build
+cmake -G "Ninja" \
+    -DCMAKE_INSTALL_PREFIX:PATH=/yuneta/development/output \
+    -DUSE_INSTALLED_JANSSON=OFF \
+    -DJANSSON_BUILD_DOCS=OFF \
+    ..
+
+ninja
+ninja install
+cd ..
+cd ../..
