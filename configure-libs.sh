@@ -10,7 +10,7 @@ export CFLAGS="-Wno-error=char-subscripts -O0 -g3 -ggdb"
 #------------------------------------------
 echo "===================== OPENSSL ======================="
 #     --api=1.1.0 \
-cd build/openssl-1.1.1u
+cd build/openssl-3.1.4
 ./config \
     --prefix=/yuneta/development/output \
     --openssldir=/yuneta/bin/ssl \
@@ -26,7 +26,7 @@ cd ../..
 #------------------------------------------
 # HACK WARNING reinstall the tar.gz before configure
 echo "===================== CURL ======================="
-cd build/curl-7.65.1
+cd build/curl-8.4.0
 ./configure --prefix=/yuneta/development/output \
     --with-ssl=/yuneta/development/output \
     --enable-static \
@@ -49,7 +49,7 @@ cd ../..
 #   Jansson
 #------------------------------------------
 echo "===================== JANSSON ======================="
-cd build/jansson-2.14
+cd build/jansson-gines-2.14
 mkdir build
 cd build
 cmake -DCMAKE_INSTALL_PREFIX:PATH=/yuneta/development/output -DJANSSON_BUILD_DOCS=OFF ..
@@ -118,7 +118,7 @@ cd build/nginx-1.24.0
     --with-http_ssl_module \
     --with-stream \
     --with-stream_ssl_module \
-    --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-1.1.1u \
+    --with-openssl=/yuneta/development/yuneta/^gobj-ecosistema/external-libs/build/openssl-3.1.4 \
     --with-openssl-opt=no-tests
 make
 make install
@@ -153,50 +153,9 @@ make
 make install
 cd ../..
 
-
 #------------------------------------------
-#   cjose
-#   https://github.com/cisco/cjose/releases
+#   Delete own openssl curl binaries
 #------------------------------------------
-echo "===================== CJOSE ======================="
-cd build/cjose-0.6.1
-./configure \
-    --prefix=/yuneta/development/output \
-    --disable-doxygen-doc \
-    --with-openssl=/yuneta/development/output \
-    --with-jansson=/yuneta/development/output
-make
-make install
-cd ../..
-
-
-#------------------------------------------
-#   liboauth2
-#   https://github.com/zmartzone/liboauth2/releases
-#------------------------------------------
-echo "===================== LIBOAUTH2 ======================="
-cd build/liboauth2-1.5.2
-sh autogen.sh
-export OPENSSL_CFLAGS="-I/yuneta/development/output/include"
-export OPENSSL_LIBS="-L/yuneta/development/output/lib -lssl -lcrypto"
-
-export CURL_LIBS="-L/yuneta/development/output/lib -lcurl"
-export CURL_CFLAGS="-I/yuneta/development/output/include"
-
-export JANSSON_CFLAGS="-I/yuneta/development/output/include"
-export JANSSON_LIBS="-L/yuneta/development/output/lib -ljansson"
-
-export CJOSE_CFLAGS="-I/yuneta/development/output/include"
-export CJOSE_LIBS="-L/yuneta/development/output/lib -lcjose"
-
-export PCRE2_CFLAGS="-I/yuneta/development/output/include"
-export PCRE2_LIBS="-L/yuneta/development/output/lib -lpcre2-8"
-
-./configure --prefix=/yuneta/development/output  --without-apache --without-redis
-make
-make install
-cd ../..
-
 rm /yuneta/development/output/bin/openssl
 rm /yuneta/development/output/bin/curl*
 
@@ -210,8 +169,8 @@ mkdir build
 cd build
 cmake -G "Ninja" \
     -DCMAKE_INSTALL_PREFIX:PATH=/yuneta/development/output \
-    -DUSE_INSTALLED_JANSSON=OFF \
-    -DJANSSON_BUILD_DOCS=OFF \
+    -DCMAKE_PREFIX_PATH:PATH=/yuneta/development/output \
+    -DBUILD_EXAMPLES=OFF \
     ..
 
 ninja

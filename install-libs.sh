@@ -6,21 +6,21 @@ set -e
 #------------------------------------------
 #   openssl
 #------------------------------------------
-cd build/openssl-1.1.1u
+cd build/openssl-3.1.4
 make install
 cd ../..
 
 #------------------------------------------
 #   curl
 #------------------------------------------
-cd build/curl-7.65.1
+cd build/curl-8.4.0
 make install
 cd ../..
 
 #------------------------------------------
 #   Jansson
 #------------------------------------------
-cd build/jansson-2.14
+cd build/jansson-gines-2.14
 cd build
 make install
 cd ../../..
@@ -69,21 +69,9 @@ cd build/sqlite-autoconf-3430100
 make install
 cd ../..
 
-
 #------------------------------------------
-#   cjose
+#   Delete own openssl curl binaries
 #------------------------------------------
-cd build/cjose-0.6.1
-make install
-cd ../..
-
-#------------------------------------------
-#   liboauth2
-#------------------------------------------
-cd build/liboauth2-1.5.2
-make install
-cd ../..
-
 rm /yuneta/development/output/bin/openssl
 rm /yuneta/development/output/bin/curl*
 
