@@ -18,7 +18,7 @@ cd build/openssl-3.1.4
     no-tests \
     enable-ssl-trace
 make
-make install
+make install_sw
 cd ../..
 
 #------------------------------------------
