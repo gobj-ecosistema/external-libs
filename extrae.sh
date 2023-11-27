@@ -8,7 +8,7 @@ mkdir build
 cd build
 
 echo "extrae curl"
-tar xzf ../sources/curl-8.4.0.tar.gz
+tar xzf ../sources/curl-7.65.1.tar.gz
 
 echo "extrae jannson"
 tar xzf ../sources/jansson-gines-2.14.tar.gz

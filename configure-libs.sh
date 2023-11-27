@@ -26,7 +26,7 @@ cd ../..
 #------------------------------------------
 # HACK WARNING reinstall the tar.gz before configure
 echo "===================== CURL ======================="
-cd build/curl-8.4.0
+cd build/curl-7.65.1
 ./configure --prefix=/yuneta/development/output \
     --with-ssl=/yuneta/development/output \
     --enable-static \
@@ -40,7 +40,6 @@ cd build/curl-8.4.0
     --disable-ldap \
     --disable-ldaps \
     --without-brotli \
-    --without-zsh-functions-dir \
     --disable-telnet
 make
 make install
