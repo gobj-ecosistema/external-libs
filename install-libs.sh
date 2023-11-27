@@ -70,12 +70,6 @@ make install
 cd ../..
 
 #------------------------------------------
-#   Delete own openssl curl binaries
-#------------------------------------------
-#rm /yuneta/development/output/bin/openssl
-rm /yuneta/development/output/bin/curl*
-
-#------------------------------------------
 #   libjwt
 #------------------------------------------
 cd build/libjwt-1.16.0
@@ -83,3 +77,27 @@ cd build
 ninja install
 cd ..
 cd ../..
+
+#------------------------------------------
+#   Delete own openssl curl binaries
+#------------------------------------------
+file_binary="/yuneta/development/output/bin/openssl"
+# Check if the file exists
+if [ -e "$file_binary" ]; then
+    echo "Removing "$file_binary" ..."
+    rm "$file_binary"
+fi
+
+file_binary="/yuneta/development/output/bin/curl"
+# Check if the file exists
+if [ -e "$file_binary" ]; then
+    echo "Removing "$file_binary" ..."
+    rm "$file_binary"
+fi
+
+file_binary="/yuneta/development/output/bin/curl-config"
+# Check if the file exists
+if [ -e "$file_binary" ]; then
+    echo "Removing "$file_binary" ..."
+    rm "$file_binary"
+fi
