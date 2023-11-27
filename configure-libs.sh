@@ -156,7 +156,7 @@ cd ../..
 #------------------------------------------
 #   Delete own openssl curl binaries
 #------------------------------------------
-rm /yuneta/development/output/bin/openssl
+#rm /yuneta/development/output/bin/openssl
 rm /yuneta/development/output/bin/curl*
 
 

@@ -7,7 +7,7 @@ set -e
 #   openssl
 #------------------------------------------
 cd build/openssl-3.1.4
-make install
+make install_sw
 cd ../..
 
 #------------------------------------------
@@ -72,7 +72,7 @@ cd ../..
 #------------------------------------------
 #   Delete own openssl curl binaries
 #------------------------------------------
-rm /yuneta/development/output/bin/openssl
+#rm /yuneta/development/output/bin/openssl
 rm /yuneta/development/output/bin/curl*
 
 #------------------------------------------
