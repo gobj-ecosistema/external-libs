@@ -40,6 +40,7 @@ cd build/curl-8.4.0
     --disable-ldap \
     --disable-ldaps \
     --without-brotli \
+    --without-zsh-functions-dir \
     --disable-telnet
 make
 make install
