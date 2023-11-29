@@ -144,7 +144,6 @@ cd build/sqlite-autoconf-3430100
 CFLAGS="-Os -DSQLITE_THREADSAFE=0" ./configure \
     --prefix=/yuneta/development/output \
     --enable-fts5 \
-    --enable-json1 \
     --disable-threadsafe \
     --enable-session \
     --enable-readline \
