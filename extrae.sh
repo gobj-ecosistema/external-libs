@@ -32,7 +32,7 @@ echo "extrae sqlite"
 tar xzf ../sources/sqlite-autoconf-3430100.tar.gz
 
 echo "extrae openssl"
-tar xzf ../sources/openssl-3.1.4.tar.gz
+tar xzf ../sources/openssl-1.1.1u.tar.gz
 
 echo "extrae libjwt"
 tar xzf ../sources/libjwt-1.16.0.tar.gz

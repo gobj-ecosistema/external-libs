@@ -6,7 +6,7 @@ set -e
 #------------------------------------------
 #   openssl
 #------------------------------------------
-cd build/openssl-3.1.4
+cd build/openssl-1.1.1u
 make install_sw
 cd ../..
 
